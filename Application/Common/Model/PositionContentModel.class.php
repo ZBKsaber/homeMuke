@@ -33,7 +33,7 @@ class PositionContentModel extends Model{
          $offset = ($page - 1) * $pageSize;
 
          $list = $this -> _db -> where($conditions)
-            ->field('id,title,thumb,create_time,status')
+            ->field('id,title,thumb,create_time,status,position_id')
             ->order('listorder desc,id desc')
             ->limit($offset,$pageSize)->select();
             return $list;
@@ -47,6 +47,6 @@ class PositionContentModel extends Model{
          if (isset($data['position_id']) && $data['position_id']) {
              $conditions['position_id'] = intval($data['position_id']);
          }
-          return $this -> _db -> where($conditions) -> count();
+          return $this -> _db -> where($conditions) -> count('id');
      }
 }
