@@ -37,4 +37,15 @@ class PositionContentModel extends Model{
             ->limit($offset,$pageSize)->select();
             return $list;
      }
+
+     public function getpositonCC($data=array()){
+         $conditions = $data;
+         if (isset($data['title']) && $data['title']) {
+             $conditions['title'] = array('like','%'.$data['title'].'%');
+         }
+         if (isset($data['position_id']) && $data['position_id']) {
+             $conditions['position_id'] = intval($data['position_id']);
+         }
+          return $this -> _db -> where($conditions) -> count();
+     }
 }
