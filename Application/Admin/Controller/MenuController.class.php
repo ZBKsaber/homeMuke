@@ -20,7 +20,7 @@ class MenuController extends CommonController {
          */
          // 获取要当前页
          $page = $_REQUEST['p'] ? $_REQUEST['p'] : 1;
-         $pageSize = $_REQUEST['pageSize'] ? $_REQUEST['pageSize'] : 3;
+         $pageSize = $_REQUEST['pageSize'] ? $_REQUEST['pageSize'] : 10;
          // 获取数据
          $menus = D('Menu') -> getMenus($data,$page,$pageSize);
          // 获取数据总条数
