@@ -40,4 +40,16 @@ class PositionModel extends Model{
            }
            return $this -> _db -> where('id='.$id) -> save($data);
        }
+
+       public function updateStatusById($id,$status){
+           if(!is_numeric($id) || !$id){
+               throw_exception('ID不合法');
+           }
+           if(!is_numeric($status) || !$status){
+               throw_exception('状态不合法');
+           }
+
+           $data['status'] = $status;
+           return $this->_db->where('id='.$id)->save($data);
+       }
 }
