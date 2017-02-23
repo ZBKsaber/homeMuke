@@ -8,7 +8,7 @@ class PositionController extends CommonController {
 
     public function index(){
         // 获取所有推荐位
-        $positions = M('Position')->field('id,name,create_time,status')->select();
+        $positions = M('Position')->field('id,name,description,create_time,status')->select();
         $this -> assign('positions',$positions);
     	$this->display();
     }
@@ -22,6 +22,9 @@ class PositionController extends CommonController {
             if(!isset($_POST['description']) || !$_POST['description']){
                 return show(0,'描述不能为空');
             }
+            if($_POST['id']){
+                return $this -> save($_POST);
+            }
             $_POST['create_time'] = time();
             $cid = M('position')->add($_POST);
             if ($cid) {
@@ -31,4 +34,33 @@ class PositionController extends CommonController {
         }
         $this -> display();
     }
+    /**
+     * 显示更新的表单
+     */
+    public function edit(){
+        // 获取要修改的数据
+        $positionId = intval($_GET['id']);
+        $position = D('Position')->find($positionId);
+        $this -> assign('position',$position);
+        $this -> display();
+    }
+
+    /**
+     * 执行表单更新的操作
+     */
+     public function save($data){
+         $positionId = intval($data['id']);
+         unset($data['id']);
+         try {
+             $id = D('Position') -> updatePositionById($positionId,$data);
+             if ($id === false) {
+                 return show(0,'更新失败');
+             }
+             return show(1,'更新成功');
+         } catch (Exception $e) {
+             return show(0,$e->getMessage());
+         }
+
+
+     }
 }

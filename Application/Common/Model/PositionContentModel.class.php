@@ -33,6 +33,7 @@ class PositionContentModel extends Model{
          $offset = ($page - 1) * $pageSize;
 
          $list = $this -> _db -> where($conditions)
+            ->field('id,title,thumb,create_time,status')
             ->order('listorder desc,id desc')
             ->limit($offset,$pageSize)->select();
             return $list;

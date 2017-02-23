@@ -28,14 +28,17 @@ class MenuModel extends Model{
          // 获取每页的偏移值
         $offset = ($page - 1) * $pageSize;
         // 获取当前页的数据
-        $list = $this -> _db ->where($data) -> order('listorder desc,menu_id desc') -> limit($offset,$pageSize) -> select();
+        $list = $this -> _db ->where($data)
+            -> field('menu_id,name,m,listorder,status')
+            -> order('listorder desc,menu_id desc')
+            -> limit($offset,$pageSize) -> select();
         return $list;
      }
 
      // 获取相应条数的总数
      public function getMenusCount($data=array()){
         $data['status'] = array('neq','-1');
-        return $this -> _db -> where($data) -> count();
+        return $this -> _db -> where($data) -> count('menu_id');
      }
 
      public function find($id){
@@ -83,7 +86,9 @@ class MenuModel extends Model{
              'status' => array('neq',-1),
              'type' => 1,
          );
-         return $this -> _db ->where($data) -> order('listorder desc,menu_id desc') -> select();
+         return $this -> _db ->where($data)
+            -> field('name,m,c,f')
+            -> order('listorder desc,menu_id desc') -> select();
      }
 
      // 获取前端导航
@@ -93,6 +98,7 @@ class MenuModel extends Model{
              'type'=>0,
          );
          $res = $this -> _db -> where($data)
+            ->field('menu_id,name')
             ->order('listorder desc,menu_id desc')
             ->select();
         return $res;

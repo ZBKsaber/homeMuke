@@ -27,7 +27,9 @@ class NewsModel extends Model{
             $conditions['catid'] = intval($data['catid']);
         }
         $offset = ($page - 1)*$pageSize;
-        $list = $this -> _db -> where($conditions)
+        $list = $this -> _db
+            ->field('news_id,catid,title,title_font_color,thumb,create_time,status,listorder')
+            ->where($conditions)
             ->order('listorder desc,news_id desc')
             ->limit($offset,$pageSize)->select();
         return $list;
@@ -41,7 +43,7 @@ class NewsModel extends Model{
         if(isset($data['catid']) && $data['catid']){
             $conditions['catid'] = intval($data['catid']);
         }
-        return $this -> _db -> where($conditions) -> count();
+        return $this -> _db -> where($conditions) -> count('news_id');
     }
     // 根据id获取文章的内容
     public function find($id){
