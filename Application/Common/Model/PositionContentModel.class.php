@@ -18,4 +18,23 @@ class PositionContentModel extends Model{
          }
          return $this -> _db -> add($data);
      }
+     /**
+      * 根据指定条件获取推荐位内容
+      */
+     public function getPositionC($data,$page,$pageSize){
+         $conditions = $data;
+         if (isset($data['title']) && $data['title']) {
+             $conditions['title'] = array('like','%'.$data['title'].'%');
+         }
+         if (isset($data['position_id']) && $data['position_id']) {
+             $conditions['position_id'] = intval($data['position_id']);
+         }
+         // 设置分页的偏移值
+         $offset = ($page - 1) * $pageSize;
+
+         $list = $this -> _db -> where($conditions)
+            ->order('listorder desc,id desc')
+            ->limit($offset,$pageSize)->select();
+            return $list;
+     }
 }

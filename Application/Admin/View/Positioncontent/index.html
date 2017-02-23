@@ -12,9 +12,11 @@
             <div class="col-lg-12">
 
                 <ol class="breadcrumb">
-
+                    <li>
+                      <i class="fa fa-dashboard"></i>  <a href="/admin.php?c=positionContent">推荐位内容管理</a>
+                    </li>
                     <li class="active">
-                        <i class="fa fa-table"></i>推荐位内容管理
+                        <i class="fa fa-table"></i>推荐位内容列表
                     </li>
                 </ol>
             </div>
@@ -68,14 +70,15 @@
                         </tr>
                         </thead>
                         <tbody>
+                            <foreach name="positionCS" item="pisitionC">
                             <tr>
                                 <td><input size=4 type='text'  name='' value=""/></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td>{$pisitionC.id}</td>
+                                <td>{$pisitionC.title}</td>
+                                <td>{$pisitionC.create_time|date="Y-m-d H:i:s",###}</td>
+                                <td>{$pisitionC.thumb|isThumb}</td>
                                 <td>
-                                    <span  attr-status="0"  attr-id="" class="sing_cursor singcms-on-off" id="singcms-on-off" ></span>
+                                    <span  attr-status="0"  attr-id="" class="sing_cursor singcms-on-off" id="singcms-on-off" >{$pisitionC.status|Status}</span>
                                 </td>
                                 <td>
                                     <span class="sing_cursor glyphicon glyphicon-edit" aria-hidden="true" id="singcms-edit" attr-id="" ></span>
@@ -84,6 +87,7 @@
                                     </a>
                                 </td>
                             </tr>
+                        </foreach>
 
                         </tbody>
                     </table>

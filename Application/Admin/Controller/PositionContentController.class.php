@@ -17,12 +17,19 @@ class PositionContentController extends CommonController {
             $conds['position_id'] = intval($_GET['position_id']);
             $this -> assign('position_id',$conds['position_id']);
         }
+        // 获取当前页数
+        $page = $_REQUEST['p'] ? $_REQUEST['p'] : 1;
+        $pageSize = 10; // 每页显示条数
+        $conds['status'] = array('neq',-1);
+        // 根据指定的条件,获取推荐位内容
+        $positionCS = D('PositionContent')->getPositionC($conds,$page,$pageSize);
         //获取所有状态为正常的推荐位栏目
         $positions = M('Position')->field('id,name,create_time,status')
         ->where(array('status'=>1))
         ->order('id desc')
         ->select();
         $this -> assign('positions',$positions);
+        $this -> assign('positionCS',$positionCS);
     	$this->display();
     }
 }
