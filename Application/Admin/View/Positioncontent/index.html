@@ -30,15 +30,18 @@
                     <div class="input-group">
                         <span class="input-group-addon">推荐位</span>
                         <select class="form-control" name="position_id">
-                                <option value=""></option>
+                            <option value="">请选择推荐位</option>
+                            <foreach name="positions" item="position">
+                            <option value="{$position.id}" <if condition="$position.id eq $position_id">selected="selected"</if>>{$position.name}</option>
+                            </foreach>
                         </select>
                     </div>
                 </div>
-                <input type="hidden" name="c" value="positioncontent"/>
-                <input type="hidden" name="a" value="index"/>
+                <input type="hidden" name="c" value="{$Think.CONTROLLER_NAME}"/>
+                <input type="hidden" name="a" value="{$Think.ACTION_NAME}"/>
                 <div class="col-md-3">
                     <div class="input-group">
-                        <input class="form-control" name="title" type="text" value="" placeholder="文章标题" />
+                        <input class="form-control" name="title" type="text" value="{$title}" placeholder="文章标题" />
                 <span class="input-group-btn">
                   <button id="sub_data" type="submit" class="btn btn-primary"><i class="glyphicon glyphicon-search"></i></button>
                 </span>
