@@ -38,19 +38,19 @@ class ContentController extends CommonController {
     public function add() {
         if ($_POST) {
             if(!isset($_POST['title']) || !$_POST['title']){
-                return show(1,'标题不存在');
+                return show(0,'标题不存在');
             }
             if(!isset($_POST['small_title']) || !$_POST['small_title']){
-                return show(1,'短标题不存在');
+                return show(0,'短标题不存在');
             }
             if(!isset($_POST['catid']) || !$_POST['catid']){
-                return show(1,'栏目不存在');
+                return show(0,'栏目不存在');
             }
             if(!isset($_POST['keywords']) || !$_POST['keywords']){
-                return show(1,'关键字不存在');
+                return show(0,'关键字不存在');
             }
             if(!isset($_POST['content']) || !$_POST['content']){
-                return show(1,'内容不存在');
+                return show(0,'内容不存在');
             }
             // 判断是否是修改文章操作
             if ($_POST['news_id']) {
