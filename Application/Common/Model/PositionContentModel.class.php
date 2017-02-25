@@ -83,4 +83,17 @@ class PositionContentModel extends Model{
          $data = array('listorder'=>intval($listorder));
          return $this -> _db -> where('id='.$id)->save($data);
      }
+     /**
+      * 前端获取推荐位文章内容
+      */
+     public function select($data=array(),$limit){
+         if (!$data || !is_array($data)) {
+             throw_exception('数据不合法');
+         }
+         if (!$limit || !is_numeric($limit)) {
+             throw_exception('文章数量不合法');
+         }
+         $res = $this -> _db -> where($data) -> limit($limit) -> select();
+         return $res;
+     }
 }
