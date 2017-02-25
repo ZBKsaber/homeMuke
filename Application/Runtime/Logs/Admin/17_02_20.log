@@ -1,0 +1,141 @@
+[ 2017-02-20T19:16:45+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0312s ]
+
+[ 2017-02-20T20:01:44+08:00 ] 127.0.0.1 /admin.php?c=content&a=push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-20T20:32:56+08:00 ] 127.0.0.1 /admin.php?c=content&a=push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0010s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('5','test','/upload/2016/03/06/56dbdc0c483af.JPG','17','1','1455756856') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('5','你好ssss','/upload/2016/03/06/56dbdc015e662.JPG','18','1','1455756999') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('5','1','/upload/2016/02/28/56d312b12ccec.png','19','1','1456673467') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('5','事实上','/upload/2016/02/28/56d3185781237.png','20','1','1456674909') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('5','习近平今日下午出席解放军代表团全体会议','/upload/2016/03/13/56e519a185c93.png','21','1','1457854896') [ RunTime:0.0010s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('5','李克强让部长们当第一新闻发言人','/upload/2016/03/13/56e51b6ac8ce2.jpg','22','1','1457855362') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('5','重庆美女球迷争芳斗艳','/upload/2016/03/13/56e51cbd34470.png','23','1','1457855680') [ RunTime:0.0010s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('5','中超-汪嵩世界波制胜 富力客场1-0力擒泰达','/upload/2016/03/13/56e51fc82b13a.png','24','1','1457856460') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('5','sdfasdf','','25','1','1482474141') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('5','sdfasdf','/upload/2016/12/23/585cc328b28ac.jpg','26','1','1482474283') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('5','sdfasdf','/upload/2016/12/23/585cc328b28ac.jpg','27','1','1482474325') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('5','fsdafsdf','','28','1','1482474361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('5','a','/upload/2017/02/18/58a7ee1667905.jpg','29','1','1482474415') [ RunTime:0.0000s ]
+
+[ 2017-02-20T20:33:47+08:00 ] 127.0.0.1 /admin.php?c=content&a=push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news`  [ RunTime:0.0010s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('2','test','/upload/2016/03/06/56dbdc0c483af.JPG','17','1','1455756856') [ RunTime:0.0010s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('2','你好ssss','/upload/2016/03/06/56dbdc015e662.JPG','18','1','1455756999') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('2','1','/upload/2016/02/28/56d312b12ccec.png','19','1','1456673467') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('2','事实上','/upload/2016/02/28/56d3185781237.png','20','1','1456674909') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('2','习近平今日下午出席解放军代表团全体会议','/upload/2016/03/13/56e519a185c93.png','21','1','1457854896') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('2','李克强让部长们当第一新闻发言人','/upload/2016/03/13/56e51b6ac8ce2.jpg','22','1','1457855362') [ RunTime:0.0010s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('2','重庆美女球迷争芳斗艳','/upload/2016/03/13/56e51cbd34470.png','23','1','1457855680') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('2','中超-汪嵩世界波制胜 富力客场1-0力擒泰达','/upload/2016/03/13/56e51fc82b13a.png','24','1','1457856460') [ RunTime:0.0010s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('2','sdfasdf','','25','1','1482474141') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('2','sdfasdf','/upload/2016/12/23/585cc328b28ac.jpg','26','1','1482474283') [ RunTime:0.0010s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('2','sdfasdf','/upload/2016/12/23/585cc328b28ac.jpg','27','1','1482474325') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('2','fsdafsdf','','28','1','1482474361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('2','a','/upload/2017/02/18/58a7ee1667905.jpg','29','1','1482474415') [ RunTime:0.0000s ]
+
+[ 2017-02-20T20:35:57+08:00 ] 127.0.0.1 /admin.php?c=content&a=push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news`  [ RunTime:0.0010s ]
+
+[ 2017-02-20T20:36:45+08:00 ] 127.0.0.1 /admin.php?c=content&a=push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('21','20')  [ RunTime:0.0000s ]
+
+[ 2017-02-20T20:37:10+08:00 ] 127.0.0.1 /admin.php?c=content&a=push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('21','22')  [ RunTime:0.0010s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('2','习近平今日下午出席解放军代表团全体会议','/upload/2016/03/13/56e519a185c93.png','21','1','1457854896') [ RunTime:0.0010s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('2','李克强让部长们当第一新闻发言人','/upload/2016/03/13/56e51b6ac8ce2.jpg','22','1','1457855362') [ RunTime:0.0010s ]
+
+[ 2017-02-20T20:39:46+08:00 ] 127.0.0.1 /admin.php?c=content&a=push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('24','23')  [ RunTime:0.0010s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('3','重庆美女球迷争芳斗艳','/upload/2016/03/13/56e51cbd34470.png','23','1','1457855680') [ RunTime:0.0000s ]
+SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('3','中超-汪嵩世界波制胜 富力客场1-0力擒泰达','/upload/2016/03/13/56e51fc82b13a.png','24','1','1457856460') [ RunTime:0.0010s ]
+
+[ 2017-02-20T20:42:01+08:00 ] 127.0.0.1 /admin.php?c=positioncontent
+ERR: 无法加载控制器:Positioncontent
+
+[ 2017-02-20T20:42:01+08:00 ] 127.0.0.1 /admin.php?c=positioncontent
+ERR: 无法加载控制器:Positioncontent
+
+[ 2017-02-20T20:42:01+08:00 ] 127.0.0.1 /admin.php?c=positioncontent
+ERR: 无法加载控制器:Positioncontent
+
+[ 2017-02-20T20:45:40+08:00 ] 127.0.0.1 /admin.php?c=positioncontent
+ERR: 无法加载控制器:Positioncontent
+
+[ 2017-02-20T20:49:20+08:00 ] 127.0.0.1 /admin.php?c=basic
+ERR: 无法加载控制器:Basic
+
+[ 2017-02-20T20:49:25+08:00 ] 127.0.0.1 /admin.php?c=positioncontent
+ERR: 无法加载控制器:Positioncontent
+
+[ 2017-02-20T20:54:52+08:00 ] 127.0.0.1 /admin.php?c=positioncontent
+ERR: 无法加载控制器:Positioncontent
+
+[ 2017-02-20T21:00:23+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-02-20T21:01:36+08:00 ] 127.0.0.1 /admin.php?c=positioncontent
+ERR: 无法加载控制器:Positioncontent
+
+[ 2017-02-20T21:13:23+08:00 ] 127.0.0.1 /admin.php?c=positioncontent
+ERR: 无法加载控制器:Positioncontent
+
+[ 2017-02-20T21:14:36+08:00 ] 127.0.0.1 /admin.php?c=positioncontent
+ERR: 无法加载控制器:Positioncontent
+
+[ 2017-02-20T21:14:59+08:00 ] 127.0.0.1 /admin.php?c=positioncontent
+ERR: 无法加载控制器:Positioncontent
+
+[ 2017-02-20T21:15:01+08:00 ] 127.0.0.1 /admin.php?c=positioncontent
+ERR: 无法加载控制器:Positioncontent
+
+[ 2017-02-20T21:15:02+08:00 ] 127.0.0.1 /admin.php?c=positioncontent
+ERR: 无法加载控制器:Positioncontent
+
+[ 2017-02-20T21:16:10+08:00 ] 127.0.0.1 /admin.php?c=positioncontent
+ERR: 无法加载控制器:Positioncontent
+
+[ 2017-02-20T21:25:54+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0010s ]
+

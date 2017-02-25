@@ -93,7 +93,7 @@ $('#button-add').click(function(){
   $('#button-listorder').click(function(){
       // 获取 listorder内容
       var data = $('#singcms-listorder').serializeArray();
-      postData = {};
+      var postData = {};
       $(data).each(function(i){
           postData[this.name] = this.value;
       });

@@ -1,0 +1,557 @@
+[ 2017-02-25T13:44:50+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.1800s ]
+
+[ 2017-02-25T13:47:19+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=add
+ERR: 无法加载控制器:Positioncontent
+
+[ 2017-02-25T14:12:10+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Positioncontent
+
+[ 2017-02-25T14:12:16+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Positioncontent
+
+[ 2017-02-25T14:12:46+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-25T14:12:56+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-25T14:13:06+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: INSERT INTO `cms_position_content` (`title`,`position_id`,`thumb`,`url`,`news_id`,`status`) VALUES ('sss','5','/upload/2017/02/25/58b1207103ece.jpg','https://www.baidu.com','0','1') [ RunTime:0.0550s ]
+
+[ 2017-02-25T14:13:08+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=index
+ERR: 无法加载控制器:Positioncontent
+
+[ 2017-02-25T14:13:58+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=index
+ERR: 无法加载控制器:Positioncontent
+
+[ 2017-02-25T14:14:37+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=99 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `cms_position_content` (`title`,`position_id`,`thumb`,`url`,`news_id`,`status`) VALUES ('qqqq','5','','','99','1') [ RunTime:0.0000s ]
+
+[ 2017-02-25T14:15:36+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-25T14:15:43+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=100 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-02-25T14:15:45+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=100 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-02-25T14:18:56+08:00 ] 127.0.0.1 /admin.php?c=positioncontent&a=edit&id=
+ERR: 无法加载控制器:Positioncontent
+
+[ 2017-02-25T14:21:35+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=edit&id=
+ERR: 非法操作:edit
+
+[ 2017-02-25T14:22:00+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=edit&id=
+ERR: 模板不存在:./Application/Admin/View/PositionContent/edit.html
+
+[ 2017-02-25T14:22:18+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=edit&id=
+ERR: 模板不存在:./Application/Admin/View/PositionContent/edit.html
+
+[ 2017-02-25T14:22:22+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=edit&id=
+ERR: 模板不存在:./Application/Admin/View/PositionContent/edit.html
+
+[ 2017-02-25T14:28:48+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=edit&id=65
+ERR: 1146:Table 'muke.cms_pisition_content' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_pisition_content`
+
+[ 2017-02-25T14:29:09+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=edit&id=65
+ERR: 1146:Table 'muke.cms_pisition_content' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_pisition_content`
+
+[ 2017-02-25T14:42:25+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:setStatus
+
+[ 2017-02-25T14:42:26+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:setStatus
+
+[ 2017-02-25T14:46:32+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=19 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\PositionContentModel.class.php 第 59 行.
+SQL: INSERT INTO `cms_position_content` (`title`,`position_id`,`thumb`,`url`,`news_id`,`status`) VALUES ('fasdfasdfsad','5','/upload/2016/02/28/56d312b12ccec.png','','19','1') [ RunTime:0.0010s ]
+
+[ 2017-02-25T14:47:12+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=25 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\PositionContentModel.class.php 第 59 行.
+SQL: INSERT INTO `cms_position_content` (`title`,`position_id`,`thumb`,`url`,`news_id`,`status`) VALUES ('标题25','5','','','25','1') [ RunTime:0.0000s ]
+
+[ 2017-02-25T14:54:14+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=19 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\PositionContentModel.class.php 第 68 行.
+SQL: UPDATE `cms_position_content` SET `title`='标题19',`position_id`='5',`thumb`='/upload/2016/02/28/56d312b12ccec.png',`url`='',`news_id`='19',`status`='1' WHERE ( id=66 ) [ RunTime:0.0240s ]
+
+[ 2017-02-25T14:55:17+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=25 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\PositionContentModel.class.php 第 68 行.
+SQL: UPDATE `cms_position_content` SET `title`='标题25',`position_id`='5',`thumb`='',`url`='',`news_id`='25',`status`='0' WHERE ( id=67 ) [ RunTime:0.0000s ]
+
+[ 2017-02-25T14:58:39+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=99 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-02-25T14:58:44+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-02-25T14:58:49+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=15 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-02-25T14:58:55+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=18 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\PositionContentModel.class.php 第 68 行.
+SQL: UPDATE `cms_position_content` SET `title`='qqqq',`position_id`='5',`thumb`='/upload/2016/03/06/56dbdc015e662.JPG',`url`='',`news_id`='18',`status`='0' WHERE ( id=65 ) [ RunTime:0.0020s ]
+
+[ 2017-02-25T15:09:44+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE ( news_id=25 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\PositionContentModel.class.php 第 68 行.
+SQL: UPDATE `cms_position_content` SET `title`='标题25',`position_id`='5',`thumb`='',`url`='',`news_id`='25',`status`='1' WHERE ( id=67 ) [ RunTime:0.0000s ]
+
+[ 2017-02-25T15:20:37+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+
+[ 2017-02-25T15:21:50+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\PositionContentModel.class.php 第 6 行.
+
+[ 2017-02-25T15:23:05+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\PositionContentModel.class.php 第 6 行.
+SQL: UPDATE `cms_position_content` SET `status`='0' WHERE ( id=67 ) [ RunTime:0.0000s ]
+
+[ 2017-02-25T15:23:09+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\PositionContentModel.class.php 第 6 行.
+SQL: UPDATE `cms_position_content` SET `status`='1' WHERE ( id=67 ) [ RunTime:0.0000s ]
+
+[ 2017-02-25T15:23:56+08:00 ] 127.0.0.1 /admin.php?c=content&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\ContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: UPDATE `cms_news` SET `status`='-1' WHERE ( news_id=19 ) [ RunTime:0.0470s ]
+
+[ 2017-02-25T15:24:05+08:00 ] 127.0.0.1 /admin.php?c=menu&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\MenuController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\MenuController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\MenuModel.class.php 第 6 行.
+SQL: UPDATE `cms_menu` SET `status`='-1' WHERE ( menu_id=8 ) [ RunTime:0.0000s ]
+
+[ 2017-02-25T15:24:10+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+
+[ 2017-02-25T15:25:10+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\PositionContentModel.class.php 第 6 行.
+SQL: UPDATE `cms_position_content` SET `status`='-1' WHERE ( id=67 ) [ RunTime:0.0000s ]
+
+[ 2017-02-25T15:54:44+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+
+[ 2017-02-25T15:54:55+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+
+[ 2017-02-25T15:57:17+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+
+[ 2017-02-25T15:57:48+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-02-25T15:57:56+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+
+[ 2017-02-25T15:58:29+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\ContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') E:\wamp64\www\muke\Application\Admin\Controller\ContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: UPDATE `cms_news` SET `listorder`='8' WHERE ( news_id=21 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='7' WHERE ( news_id=22 ) [ RunTime:0.0010s ]
+SQL: UPDATE `cms_news` SET `listorder`='1' WHERE ( news_id=20 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=28 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=27 ) [ RunTime:0.0010s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=26 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=25 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=24 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=23 ) [ RunTime:0.0010s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=18 ) [ RunTime:0.0000s ]
+
+[ 2017-02-25T15:58:37+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\ContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') E:\wamp64\www\muke\Application\Admin\Controller\ContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: UPDATE `cms_news` SET `listorder`='8' WHERE ( news_id=21 ) [ RunTime:0.0010s ]
+SQL: UPDATE `cms_news` SET `listorder`='7' WHERE ( news_id=22 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='1' WHERE ( news_id=20 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=28 ) [ RunTime:0.0010s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=27 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=26 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=25 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=24 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=23 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=18 ) [ RunTime:0.0000s ]
+
+[ 2017-02-25T15:58:52+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+
+[ 2017-02-25T16:00:01+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+
+[ 2017-02-25T16:00:04+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+
+[ 2017-02-25T16:00:14+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+
+[ 2017-02-25T16:01:35+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+
+[ 2017-02-25T16:01:38+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+
+[ 2017-02-25T16:01:44+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+
+[ 2017-02-25T16:02:43+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+
+[ 2017-02-25T16:02:49+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\ContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') E:\wamp64\www\muke\Application\Admin\Controller\ContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: UPDATE `cms_news` SET `listorder`='8' WHERE ( news_id=21 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='7' WHERE ( news_id=22 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='1' WHERE ( news_id=20 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=28 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=27 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=26 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=25 ) [ RunTime:0.0010s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=24 ) [ RunTime:0.0010s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=23 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=18 ) [ RunTime:0.0000s ]
+
+[ 2017-02-25T16:03:11+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\ContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') E:\wamp64\www\muke\Application\Admin\Controller\ContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: UPDATE `cms_news` SET `listorder`='8' WHERE ( news_id=21 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='7' WHERE ( news_id=22 ) [ RunTime:0.0010s ]
+SQL: UPDATE `cms_news` SET `listorder`='1' WHERE ( news_id=20 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=28 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=27 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=26 ) [ RunTime:0.0010s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=25 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=24 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=23 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=18 ) [ RunTime:0.0010s ]
+
+[ 2017-02-25T16:04:28+08:00 ] 127.0.0.1 /admin.php?c=basic
+ERR: 无法加载控制器:Basic
+
+[ 2017-02-25T16:04:33+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\ContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') E:\wamp64\www\muke\Application\Admin\Controller\ContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: UPDATE `cms_news` SET `listorder`='8' WHERE ( news_id=21 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='7' WHERE ( news_id=22 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='1' WHERE ( news_id=20 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=28 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=27 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=26 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=25 ) [ RunTime:0.0010s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=24 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=23 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=18 ) [ RunTime:0.0010s ]
+
+[ 2017-02-25T16:05:22+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+
+[ 2017-02-25T16:05:25+08:00 ] 127.0.0.1 /admin.php?c=content&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\ContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') E:\wamp64\www\muke\Application\Admin\Controller\ContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: UPDATE `cms_news` SET `listorder`='8' WHERE ( news_id=21 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='7' WHERE ( news_id=22 ) [ RunTime:0.0010s ]
+SQL: UPDATE `cms_news` SET `listorder`='1' WHERE ( news_id=20 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=28 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=27 ) [ RunTime:0.0010s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=26 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=25 ) [ RunTime:0.0010s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=24 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=23 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_news` SET `listorder`='0' WHERE ( news_id=18 ) [ RunTime:0.0010s ]
+
+[ 2017-02-25T16:18:14+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+
+[ 2017-02-25T16:18:18+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+
+[ 2017-02-25T16:18:22+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+
+[ 2017-02-25T16:20:56+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\PositionContentModel.class.php 第 6 行.
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=66 ) [ RunTime:0.0010s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=65 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=64 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=63 ) [ RunTime:0.0010s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=62 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=61 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=60 ) [ RunTime:0.0010s ]
+
+[ 2017-02-25T16:21:02+08:00 ] 127.0.0.1 /admin.php?c=positionContent&a=listorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\PositionContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') E:\wamp64\www\muke\Application\Admin\Controller\PositionContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) E:\wamp64\www\muke\Application\Common\Model\PositionContentModel.class.php 第 6 行.
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=66 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=65 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='2' WHERE ( id=64 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='1' WHERE ( id=63 ) [ RunTime:0.0010s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=62 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=61 ) [ RunTime:0.0000s ]
+SQL: UPDATE `cms_position_content` SET `listorder`='0' WHERE ( id=60 ) [ RunTime:0.0010s ]
+
+[ 2017-02-25T16:40:35+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-25T16:40:38+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-25T16:44:00+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-02-25T16:44:02+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-25T16:44:07+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-25T16:44:11+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-25T16:44:15+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-25T16:44:17+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-25T16:49:56+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\wamp64\www\muke\Application\Common\Model\BasicModel.class.php 第 8 行.
+
+[ 2017-02-25T16:56:29+08:00 ] 127.0.0.1 /admin.php?c=basic&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) E:\wamp64\www\muke\Application\Common\Model\BasicModel.class.php 第 8 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) E:\wamp64\www\muke\Application\Common\Model\BasicModel.class.php 第 8 行.
+
