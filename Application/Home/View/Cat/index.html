@@ -3,20 +3,6 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-9 col-md-9">
-        <div class="banner">
-          <div class="banner-left">
-            <a target="_blank" href="/index.php?c=detail&id={$result['topPicNews'][0]['news_id']}"><img style="width:670px;height:360px;" src="{$result['topPicNews'][0]['thumb']}" alt=""></a>
-          </div>
-          <div class="banner-right">
-            <ul>
-                <foreach name="result['topSmallNews']" item="small">
-                    <li>
-                    <a target="_blank" href="/index.php?c=detail&id={$small['news_id']}"><img style="width:150px;height:113px;" src="{$small['thumb']}" alt=""></a>
-                    </li>
-                </foreach>
-            </ul>
-          </div>
-        </div>
         <div class="news-list">
             <volist name="result['listNews']" id="vo">
                 <dl>
@@ -34,6 +20,7 @@
                   </dd>
                 </dl>
             </volist>
+            {$result['pageres']}
         </div>
       </div>
       <!-- 网站右侧信息 -->

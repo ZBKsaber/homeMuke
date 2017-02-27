@@ -30,18 +30,6 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-9 col-md-9">
-        <div class="banner">
-          <div class="banner-left">
-            <a target="_blank" href="/index.php?c=detail&id=<?php echo ($result['topPicNews'][0]['news_id']); ?>"><img style="width:670px;height:360px;" src="<?php echo ($result['topPicNews'][0]['thumb']); ?>" alt=""></a>
-          </div>
-          <div class="banner-right">
-            <ul>
-                <?php if(is_array($result['topSmallNews'])): foreach($result['topSmallNews'] as $key=>$small): ?><li>
-                    <a target="_blank" href="/index.php?c=detail&id=<?php echo ($small['news_id']); ?>"><img style="width:150px;height:113px;" src="<?php echo ($small['thumb']); ?>" alt=""></a>
-                    </li><?php endforeach; endif; ?>
-            </ul>
-          </div>
-        </div>
         <div class="news-list">
             <?php if(is_array($result['listNews'])): $i = 0; $__LIST__ = $result['listNews'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><dl>
                   <dt><a target="_blank" href="/index.php?c=detail&id=<?php echo ($vo['news_id']); ?>"><?php echo ($vo["title"]); ?></a></dt>
@@ -57,6 +45,7 @@
                     <?php echo ($vo["keywords"]); ?> <span><?php echo (date("Y-m-d H:i:s",$vo["create_time"])); ?></span> 阅读(1万)
                   </dd>
                 </dl><?php endforeach; endif; else: echo "" ;endif; ?>
+            <?php echo ($result['pageres']); ?>
         </div>
       </div>
       <!-- 网站右侧信息 -->
