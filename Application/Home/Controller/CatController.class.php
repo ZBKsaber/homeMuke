@@ -15,11 +15,10 @@ class CatController extends CommonController {
         $advNews = D('PositionContent')->select(array('status'=>1,'position_id'=>5),2);
         // 获取排行
         $rankNews = $this -> getRank();
-
+        // 分页处理
         $page = $_REQUEST['p'] ? $_REQUEST['p'] : 1;
         $pageSize = 5;
         $conds = array(
-            'status' => 1,
             'thumb'  => array('neq',''),
             'catid' => $id,
         );

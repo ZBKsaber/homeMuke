@@ -23,8 +23,8 @@ class ContentController extends CommonController {
         $news = D('News') -> getNews($conds,$page,$pageSize);
         $count = D('News') -> getNewsCount($conds);
 
-        $res = new \Think\Page($count,$pageSize);
-        $pageres = $res -> show();
+        // 调用自定义分页函数
+        $pageres = getPageStyle($count,$pageSize);
         // 获取推荐位栏目
         $positions = D('Position') -> getNormalPositions();
         $this -> assign('news',$news);
