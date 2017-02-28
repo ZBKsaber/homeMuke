@@ -108,7 +108,7 @@
                     <td><input type="checkbox" name="pushcheck" value="{$new.news_id}"></td>
                     <td><input size=4 type='text' name='listorder[{$new.news_id}]' value="{$new.listorder}"/></td>
                     <td>{$new.news_id}</td>
-                    <td>{$new.title}</td>
+                    <td><a target="_blank" href="/index.php?c=detail&a=view&id={$new.news_id}">{$new.title}</a></td>
                     <td>{$new.catid|getCatName=$webSiteMenu,###}</td>
                     <td>{$new.copyfrom|getCopyFromById}</td>
                     <td>

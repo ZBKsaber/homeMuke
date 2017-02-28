@@ -8,4 +8,5 @@ return array(
     'LOAD_EXT_CONFIG'=>'db',//加载额外的配置文件
     'MD5_PRE' => 'zbk',
     "ERROR_PAGE"=>'/404.html',	// 配置404错误页面
+    "HTML_FILE_SUFFIX" => '.html'
 );

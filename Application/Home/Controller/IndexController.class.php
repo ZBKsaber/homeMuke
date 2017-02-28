@@ -2,7 +2,7 @@
 namespace Home\Controller;
 use Think\Controller;
 class IndexController extends CommonController {
-    public function index(){
+    public function index($type=''){
         // 获取排行
         $rankNews = $this -> getRank();
         try {
@@ -26,6 +26,33 @@ class IndexController extends CommonController {
             'rankNews' => $rankNews,
             'catId' => 0,
         ));
-        $this->display();
+        /**
+         * 生成页面静态化
+         */
+         if ($type == 'buildHtml') {
+             $this -> buildHtml('index',HTML_PATH,'Index/index');
+         }else{
+             $this->display();
+         }
     }
+    /**
+     * 通过后台生成首页缓存
+     */
+    public function build_html(){
+        $this -> index('buildHtml');
+        return show(1,'首页缓存生成成功');
+    }
+    /**
+     * 通过定时任务生成首页缓存
+     */
+     public function crontab_build_html(){
+         if (!APP_CRONTAB != 1) {
+             die('the_file_must_exec_crontab');
+         }
+         $result = D('Basic')->select();
+         if (!$result['cacheindex']) {
+             die('系统没有设置开启自动生成首页缓存');
+         }
+         $this -> index('buildHtml');
+     }
 }

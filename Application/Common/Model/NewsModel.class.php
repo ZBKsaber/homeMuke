@@ -106,7 +106,7 @@ class NewsModel extends Model{
         $res = $this -> _db -> where($data) -> limit($limit) -> select();
         return $res;
     }
-    
+
     /**
      * 获取首页排行的数据
      * @param array $data
@@ -116,5 +116,16 @@ class NewsModel extends Model{
      public function getRank($data = array(),$limit = 100){
          $list = $this -> _db -> where($data) -> order('count desc,news_id desc') -> select();
          return $list;
+     }
+
+     public function updateCount($id,$count){
+         if(!$id || !is_numeric($id)){
+             throw_exception('ID不合法');
+         }
+         if(!is_numeric($count)){
+             throw_exception('count不能为非数字');
+         }
+         $data['count'] = $count;
+         return $this -> _db -> where('news_id='.$id)->save($data);
      }
 }

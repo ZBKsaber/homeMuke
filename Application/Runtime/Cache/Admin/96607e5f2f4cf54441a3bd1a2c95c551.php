@@ -92,37 +92,16 @@
 		</div>
 		</div>
 		<!-- /.row -->
-
 		<div class="row">
 			<div class="col-lg-6">
+				<div class="form-group">
+					<label for="inputname" class="col-sm-2 control-label">更新首页缓存:</label>
+					<div class="col-sm-5">
+						<button type="button" class="btn" id="cache-index">确定更新</button>
+					</div>
+				</div>
 
-				<form class="form-horizontal" id="singcms-form">
-					<div class="form-group">
-						<label for="inputname" class="col-sm-2 control-label">站点标题:</label>
-						<div class="col-sm-5">
-							<input type="text" name="title" value="<?php echo ($vo["title"]); ?>" class="form-control" id="inputname" placeholder="请填写站点标题">
-						</div>
-					</div>
 
-					<div class="form-group">
-						<label for="inputPassword3" class="col-sm-2 control-label">站点关键词:</label>
-						<div class="col-sm-5">
-							<input type="text" class="form-control" value="<?php echo ($vo["title"]); ?>" name="keywords" id="inputPassword3" placeholder="请填写站点关键词">
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="inputPassword3" class="col-sm-2 control-label">站点描述:</label>
-						<div class="col-sm-5">
-							<textarea class="form-control" rows="3" name="description"><?php echo ($vo["title"]); ?></textarea>
-						</div>
-					</div>
-
-					<div class="form-group">
-						<div class="col-sm-offset-2 col-sm-10">
-							<button type="button" class="btn btn-default" id="singcms-button-submit">提交</button>
-						</div>
-					</div>
-				</form>
 
 			</div>
 
@@ -138,10 +117,22 @@
 </div>
 <!-- /#wrapper -->
 <script>
-	var SCOPE = {
-		'save_url' : '/admin.php?c=basic&a=add',
-		'jump_url' : '/admin.php?c=basic',
-	};
+  $("#cache-index").click(function(){
+
+	var url = 'index.php?c=index&a=build_html';
+	var jump_url = '/admin.php?c=basic&a=cache';
+	var postData = {};
+
+	$.post(url, postData,function(result){
+	  if(result.status==1) {
+		// 成功
+		return dialog.success(result.message,jump_url);
+	  }else if(result.status==0) {
+		return dialog.error(result.message);
+	  }
+
+	},"JSON");
+  });
 
 </script>
 <script src="/Public/js/admin/common.js"></script>
