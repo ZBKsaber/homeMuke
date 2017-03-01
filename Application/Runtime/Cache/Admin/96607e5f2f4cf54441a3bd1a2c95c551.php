@@ -46,7 +46,7 @@
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
 
-    <a class="navbar-brand" >singcms内容管理平台</a>
+    <a class="navbar-brand" >ZBK内容管理平台</a>
   </div>
   <!-- Top Menu Items -->
   <ul class="nav navbar-right top-nav">
@@ -102,12 +102,18 @@
 						<button type="button" class="btn btn-success" id="cache-index">确定更新</button>
 					</div>
 				</div>
-
-
-
 			</div>
-
 		</div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="form-group">
+                    <div class="col-sm-5">
+                        <strong>备份数据库:</strong>
+                        <button type="button" class="btn btn-success"><a href="/admin.php?c=cron&a=dumpmysql">确定备份</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
 		<!-- /.row -->
 
 	</div>
