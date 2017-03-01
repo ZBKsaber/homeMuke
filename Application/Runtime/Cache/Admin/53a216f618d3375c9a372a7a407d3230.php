@@ -37,9 +37,10 @@
 </head>
 
 <body>
+
 <div id="wrapper">
 
-  <?php
+    <?php
  $navs = D('Menu')->getAdminMenus(); $index = 'index'; ?>
 <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -87,11 +88,18 @@
 	<div class="container-fluid">
 
 		<!-- Page Heading -->
-		<div style="margin-bottom:20px;" class="row">
-    		<div class="col-lg-12">
-    			<a href="/admin.php?c=basic"><button type="button" class="btn <?php if(ACTION_NAME == index): ?>btn-primary<?php endif; ?>"> 基本配置</button></a>
-    			<a href="/admin.php?c=basic&a=cache"><button type="button" class="btn <?php if(ACTION_NAME == cache): ?>btn-primary<?php endif; ?>"> 缓存配置</button></a>
-    		</div>
+		<div class="row">
+			<div class="col-lg-12">
+
+				<ol class="breadcrumb">
+					<li>
+						<i class="fa fa-dashboard"></i>  <a href="javascript:void(0)">个人中心</a>
+					</li>
+					<li class="active">
+						<i class="fa fa-edit"></i> 配置
+					</li>
+				</ol>
+			</div>
 		</div>
 		<!-- /.row -->
 
@@ -100,24 +108,27 @@
 
 				<form class="form-horizontal" id="singcms-form">
 					<div class="form-group">
-						<label for="inputname" class="col-sm-2 control-label">站点标题:</label>
+						<label  class="col-sm-2 control-label">用户名:</label>
 						<div class="col-sm-5">
-							<input type="text" name="title" value="<?php echo ($vo["title"]); ?>" class="form-control" id="inputname" placeholder="请填写站点标题">
+							<?php echo ($info["username"]); ?>
 						</div>
 					</div>
 
 					<div class="form-group">
-						<label for="inputPassword3" class="col-sm-2 control-label">站点关键词:</label>
+						<label  class="col-sm-2 control-label">真实姓名:</label>
 						<div class="col-sm-5">
-							<input type="text" class="form-control" value="<?php echo ($vo["keywords"]); ?>" name="keywords" id="inputPassword3" placeholder="请填写站点关键词">
+							<input type="text" class="form-control" name="realname" id="inputPassword3" placeholder="" value="<?php echo ($info["realname"]); ?>">
 						</div>
 					</div>
+
 					<div class="form-group">
-						<label for="inputPassword3" class="col-sm-2 control-label">站点描述:</label>
+						<label  class="col-sm-2 control-label">个人邮箱:</label>
 						<div class="col-sm-5">
-							<textarea class="form-control" rows="3" name="description"><?php echo ($vo["description"]); ?></textarea>
+							<input type="text" class="form-control" name="email" id="inputPassword3" placeholder="" value="<?php echo ($info["email"]); ?>">
 						</div>
 					</div>
+					<input type="hidden" name="admin_id" value=""/>
+
 
 					<div class="form-group">
 						<div class="col-sm-offset-2 col-sm-10">
@@ -125,6 +136,7 @@
 						</div>
 					</div>
 				</form>
+
 
 			</div>
 
@@ -138,14 +150,15 @@
 <!-- /#page-wrapper -->
 
 </div>
-<!-- /#wrapper -->
 <script>
 	var SCOPE = {
-		'save_url' : '/admin.php?c=basic&a=add',
-		'jump_url' : '/admin.php?c=basic',
+		'save_url' : '/admin.php?c=admin&a=save',
+		'jump_url' : '',
+
 	};
 
 </script>
+<!-- /#wrapper -->
 <script src="/Public/js/admin/common.js"></script>
 
 

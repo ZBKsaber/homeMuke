@@ -95,10 +95,10 @@
 
                 <ol class="breadcrumb">
                     <li>
-                        <i class="fa fa-dashboard"></i>  <a href="/admin.php?c=position">推荐位管理</a>
+                        <i class="fa fa-dashboard"></i>  <a href="/admin.php?c=admin">用户管理</a>
                     </li>
                     <li class="active">
-                        <i class="fa fa-edit"></i> 修改
+                        <i class="fa fa-edit"></i> 添加
                     </li>
                 </ol>
             </div>
@@ -110,43 +110,24 @@
 
                 <form class="form-horizontal" id="singcms-form">
                     <div class="form-group">
-                        <label for="inputname" class="col-sm-2 control-label">名称:</label>
+                        <label for="inputname" class="col-sm-2 control-label">用户名:</label>
                         <div class="col-sm-5">
-                            <input type="text" name="name" value="<?php echo ($position["name"]); ?>" class="form-control" id="inputname" placeholder="请填写名称">
+                            <input type="text" name="username" class="form-control" id="inputname" placeholder="请填写用户名">
                         </div>
                     </div>
-                    <!--<div class="form-group">
-                        <label for="inputname" class="col-sm-2 control-label">父类菜单ID:</label>
-                        <div class="col-sm-5">
-                            <select class="form-control" name="parentid">
-                                <option value="0">一级菜单</option>
-                                <?php if(is_array($menus)): $i = 0; $__LIST__ = $menus;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$parent): $mod = ($i % 2 );++$i;?><option value="<?php echo ($parent["menu_id"]); ?>"><?php echo ($parent["name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
-                            </select>
-                        </div>
-                    </div>-->
+
                     <div class="form-group">
-                        <label for="inputPassword3" class="col-sm-2 control-label">描述:</label>
+                        <label for="inputPassword3" class="col-sm-2 control-label">密码:</label>
                         <div class="col-sm-5">
-                            <input type="text" class="form-control" name="description" value="<?php echo ($position["description"]); ?>" id="inputPassword3" placeholder="推荐位描述">
+                            <input type="password" name="password" class="form-control" id="inputname" placeholder="请填写密码"/> 
                         </div>
+
                     </div>
-                    <input type="hidden" name="id" value="<?php echo ($position["id"]); ?>">
-                    <!--<div class="form-group">
-                        <label for="inputPassword3" class="col-sm-2 control-label">是否为前台菜单:</label>
-                        <div class="col-sm-5">
-                            <input type="radio" name="type" id="optionsRadiosInline1" value="0" checked> 否
-                            <input type="radio" name="type" id="optionsRadiosInline2" value="1"> 是
-                        </div>
-
-                    </div>-->
-
                     <div class="form-group">
-                        <label for="inputPassword3" class="col-sm-2 control-label">状态:</label>
+                        <label for="inputPassword3" class="col-sm-2 control-label">真实姓名:</label>
                         <div class="col-sm-5">
-                            <input type="radio" name="status" id="optionsRadiosInline1" value="1" checked> 开启
-                            <input type="radio" name="status" id="optionsRadiosInline2" value="0"> 关闭
+                            <input type="text" class="form-control" name="realname" id="inputPassword3" placeholder="请填写真实姓名">
                         </div>
-
                     </div>
 
                     <div class="form-group">
@@ -174,8 +155,8 @@
 <script>
 
     var SCOPE = {
-        'save_url' : '/admin.php?c=position&a=add',
-        'jump_url' : '/admin.php?c=position',
+        'save_url' : '/admin.php?c=admin&a=add',
+        'jump_url' : '/admin.php?c=admin',
     }
 </script>
 <script src="/Public/js/admin/common.js"></script>

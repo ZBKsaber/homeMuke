@@ -13,7 +13,9 @@ class LoginController extends Controller {
         }
         return $this->display();
     }
-
+    /**
+     * 检测登录用户的信息
+     */
     public function check(){
         $username = $_POST['username'];
         $password = $_POST['password'];

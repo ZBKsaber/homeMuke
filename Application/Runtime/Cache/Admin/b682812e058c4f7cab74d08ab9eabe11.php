@@ -95,73 +95,58 @@
 
                 <ol class="breadcrumb">
                     <li>
-                        <i class="fa fa-dashboard"></i>  <a href="/admin.php?c=position">推荐位管理</a>
+                        <i class="fa fa-dashboard"></i>  <a href="/admin.php?c=admin">用户管理</a>
                     </li>
                     <li class="active">
-                        <i class="fa fa-edit"></i> 修改
+                        <i class="fa fa-table"></i>用户列表
                     </li>
                 </ol>
             </div>
         </div>
         <!-- /.row -->
 
+        <div>
+          <button  id="button-add" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>添加 </button>
+        </div>
         <div class="row">
             <div class="col-lg-6">
-
-                <form class="form-horizontal" id="singcms-form">
-                    <div class="form-group">
-                        <label for="inputname" class="col-sm-2 control-label">名称:</label>
-                        <div class="col-sm-5">
-                            <input type="text" name="name" value="<?php echo ($position["name"]); ?>" class="form-control" id="inputname" placeholder="请填写名称">
-                        </div>
-                    </div>
-                    <!--<div class="form-group">
-                        <label for="inputname" class="col-sm-2 control-label">父类菜单ID:</label>
-                        <div class="col-sm-5">
-                            <select class="form-control" name="parentid">
-                                <option value="0">一级菜单</option>
-                                <?php if(is_array($menus)): $i = 0; $__LIST__ = $menus;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$parent): $mod = ($i % 2 );++$i;?><option value="<?php echo ($parent["menu_id"]); ?>"><?php echo ($parent["name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
-                            </select>
-                        </div>
-                    </div>-->
-                    <div class="form-group">
-                        <label for="inputPassword3" class="col-sm-2 control-label">描述:</label>
-                        <div class="col-sm-5">
-                            <input type="text" class="form-control" name="description" value="<?php echo ($position["description"]); ?>" id="inputPassword3" placeholder="推荐位描述">
-                        </div>
-                    </div>
-                    <input type="hidden" name="id" value="<?php echo ($position["id"]); ?>">
-                    <!--<div class="form-group">
-                        <label for="inputPassword3" class="col-sm-2 control-label">是否为前台菜单:</label>
-                        <div class="col-sm-5">
-                            <input type="radio" name="type" id="optionsRadiosInline1" value="0" checked> 否
-                            <input type="radio" name="type" id="optionsRadiosInline2" value="1"> 是
-                        </div>
-
-                    </div>-->
-
-                    <div class="form-group">
-                        <label for="inputPassword3" class="col-sm-2 control-label">状态:</label>
-                        <div class="col-sm-5">
-                            <input type="radio" name="status" id="optionsRadiosInline1" value="1" checked> 开启
-                            <input type="radio" name="status" id="optionsRadiosInline2" value="0"> 关闭
-                        </div>
-
-                    </div>
-
-                    <div class="form-group">
-                        <div class="col-sm-offset-2 col-sm-10">
-                            <button type="button" class="btn btn-default" id="singcms-button-submit">提交</button>
-                        </div>
-                    </div>
-                </form>
-
-
+                <h3></h3>
+                <div class="table-responsive">
+                    <form id="singcms-listorder">
+                    <table class="table table-bordered table-hover singcms-table">
+                        <thead>
+                        <tr>
+                            <th>id</th>
+                            <th>用户名</th>
+                            <th>真实姓名</th>
+                            <th>最后登录时间</th>
+                            <th>状态</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr>
+                                    <td><?php echo ($vo["admin_id"]); ?></td>
+                                    <td><?php echo ($vo["username"]); ?></td>
+                                    <td><?php echo ($vo["realname"]); ?></td>
+                                    <td><?php echo (date("Y-m-d H:i:s",(isset($vo["lastlogintime"]) && ($vo["lastlogintime"] !== ""))?($vo["lastlogintime"]):"暂无")); ?></td>
+                                    <td>
+                                        <span  attr-status=""  attr-id="" class="sing_cursor singcms-on-off" id="singcms-on-off" ><?php echo (status($vo["status"])); ?></span>
+                                    </td>
+                                    <td>
+                                        <a href="javascript:void(0)" attr-id="" id="singcms-delete"  attr-a="admin" attr-message="删除">
+                                            <span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+                                        </a>
+                                    </td>
+                                </tr><?php endforeach; endif; ?>
+                        </tbody>
+                    </table>
+                    </form>
+                </div>
             </div>
 
         </div>
         <!-- /.row -->
-
     </div>
     <!-- /.container-fluid -->
 
@@ -172,12 +157,15 @@
 <!-- /#wrapper -->
 <!-- Morris Charts JavaScript -->
 <script>
-
     var SCOPE = {
-        'save_url' : '/admin.php?c=position&a=add',
-        'jump_url' : '/admin.php?c=position',
+        'add_url' : '/admin.php?c=admin&a=add',
+        'edit_url' : '/admin.php?c=admin&a=edit',
+        'set_status_url' : '/admin.php?c=admin&a=setStatus',
+        'index_url' : '/',
+
     }
 </script>
+
 <script src="/Public/js/admin/common.js"></script>
 
 
