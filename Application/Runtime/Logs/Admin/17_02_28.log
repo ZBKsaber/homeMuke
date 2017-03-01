@@ -5,3 +5,9 @@ INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
 NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp64\www\muke\Application\Common\Model\BasicModel.class.php 第 8 行.
 NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\BasicModel.class.php 第 8 行.
 
+[ 2017-02-28T17:25:45+08:00 ] 127.0.0.1 /admin.php?c=admin
+ERR: 无法加载控制器:Admin
+
+[ 2017-02-28T17:25:47+08:00 ] 127.0.0.1 /admin.php?c=admin
+ERR: 无法加载控制器:Admin
+
