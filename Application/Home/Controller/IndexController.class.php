@@ -27,10 +27,13 @@ class IndexController extends CommonController {
             'catId' => 0,
         ));
         /**
-         * 生成页面静态化
+         * 生成首页页面静态化
          */
          if ($type == 'buildHtml') {
-             $this -> buildHtml('index',HTML_PATH,'Index/index');
+             if (!getLoginUsername()) {
+                 return $this -> error('您没有权限访问该页面');
+             }
+             return $this -> buildHtml('index',HTML_PATH,'Index/index');
          }else{
              $this->display();
          }
@@ -39,8 +42,10 @@ class IndexController extends CommonController {
      * 通过后台生成首页缓存
      */
     public function build_html(){
-        $this -> index('buildHtml');
-        return show(1,'首页缓存生成成功');
+        $res = $this -> index('buildHtml');
+        if ($res) {
+            return show(1,'首页缓存生成成功');
+        }
     }
     /**
      * 通过定时任务生成首页缓存

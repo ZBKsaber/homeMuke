@@ -30,8 +30,10 @@ class DetailController extends CommonController {
         $this -> display('Detail/index');
     }
 
+    /**
+     * 后端用来预览文章页面
+     */
     public function view(){
-        $res = getLoginUsername();
         if (!getLoginUsername()) {
             return $this -> error('您没有权限访问该页面');
         }

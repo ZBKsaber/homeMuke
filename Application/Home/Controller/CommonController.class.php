@@ -15,6 +15,9 @@ class CommonController extends Controller {
          $news = D('News') -> getRank($conds,10);
          return $news;
      }
+     /**
+      * 前端错误提示
+      */
      public function error($message = ''){
          $message = $message ? $message : '系统错误';
          $this -> assign('message',$message);

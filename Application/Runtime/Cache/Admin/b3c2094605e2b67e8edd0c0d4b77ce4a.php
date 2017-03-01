@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="Public/css/sing/common.css" />
     <link rel="stylesheet" href="Public/css/party/bootstrap-switch.css" />
     <link rel="stylesheet" type="text/css" href="Public/css/party/uploadify.css">
+    <!-- 引入自定义分页样式css -->
+    <link rel="stylesheet" type="text/css" href="Public/css/pageStyle.css">
 
     <!-- jQuery -->
     <script src="/Public/js/jquery.js"></script>
@@ -99,13 +101,15 @@
             </div>
         </div>
         <!-- /.row -->
-        <div >
-            <button  id="button-add" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>添加 </button>
+        <div style="margin-bottom:15px;">
+            <button  id="button-add" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>添加
+            </button>
         </div>
 
         <div class="row">
             <form action="/admin.php" method="get">
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="input-group">
                         <span class="input-group-addon">推荐位</span>
                         <select class="form-control" name="position_id">
@@ -116,7 +120,7 @@
                 </div>
                 <input type="hidden" name="c" value="<?php echo (CONTROLLER_NAME); ?>"/>
                 <input type="hidden" name="a" value="<?php echo (ACTION_NAME); ?>"/>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="input-group">
                         <input class="form-control" name="title" type="text" value="<?php echo ($title); ?>" placeholder="文章标题" />
                 <span class="input-group-btn">
@@ -128,7 +132,7 @@
         </div>
 
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-8">
                 <h3></h3>
                 <div class="table-responsive">
                     <form id="singcms-listorder">

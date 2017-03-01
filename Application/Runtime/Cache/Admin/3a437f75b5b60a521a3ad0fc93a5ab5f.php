@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="Public/css/sing/common.css" />
     <link rel="stylesheet" href="Public/css/party/bootstrap-switch.css" />
     <link rel="stylesheet" type="text/css" href="Public/css/party/uploadify.css">
+    <!-- 引入自定义分页样式css -->
+    <link rel="stylesheet" type="text/css" href="Public/css/pageStyle.css">
 
     <!-- jQuery -->
     <script src="/Public/js/jquery.js"></script>
@@ -103,7 +105,7 @@
         <button  id="button-add" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>添加 </button>
       </div>
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-8">
           <h3></h3>
           <div class="table-responsive">
             <form id="singcms-listorder">

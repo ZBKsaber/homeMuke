@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="Public/css/sing/common.css" />
     <link rel="stylesheet" href="Public/css/party/bootstrap-switch.css" />
     <link rel="stylesheet" type="text/css" href="Public/css/party/uploadify.css">
+    <!-- 引入自定义分页样式css -->
+    <link rel="stylesheet" type="text/css" href="Public/css/pageStyle.css">
 
     <!-- jQuery -->
     <script src="/Public/js/jquery.js"></script>

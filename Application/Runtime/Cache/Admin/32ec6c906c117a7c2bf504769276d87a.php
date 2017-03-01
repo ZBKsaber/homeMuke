@@ -10,7 +10,7 @@
   <meta name="author" content="">
   <link rel="icon" href="">
 
-  <title>singcms内容管理平台</title>
+  <title>登录</title>
 
   <!-- Bootstrap core CSS -->
   <link href="/Public/css/bootstrap.min.css" rel="stylesheet">
@@ -26,26 +26,20 @@
 </head>
 
 <body>
-<style>
-  .s_center {
-    margin-left: auto;
-    margin-right: auto;
-  }
-</style>
-<div class="s_center container col-lg-6 ">
-
-    <form class="form-signin" enctype="multipart/form-data"  method="post">
-      <h2 class="form-signin-heading">请登录</h2>
-      <label class="sr-only">用户名</label>
-      <input type="text"  class="form-control" name="username" placeholder="请填写用户名" required autofocus>
-      <br />
-      <label  class="sr-only">密码</label>
-      <input type="password" name="password" id="inputPassword" class="form-control" placeholder="密码" required>
-      <br />
-      <button class="btn btn-lg btn-primary btn-block" type="button" onclick="login.check();">登录</button>
-    </form>
-
-</div> <!-- /container -->
+    <div class="container">
+        <div class="col-lg-4 col-lg-offset-4">
+            <form class="form-signin" enctype="multipart/form-data"  method="post">
+              <h3 class="form-signin-heading text-center">请登录</h3>
+              <label class="sr-only">用户名</label>
+              <input type="text"  class="form-control" name="username" placeholder="请填写用户名" required autofocus>
+              <br />
+              <label  class="sr-only">密码</label>
+              <input type="password" name="password" id="inputPassword" class="form-control" placeholder="密码" required>
+              <br />
+              <button class="btn btn-lg btn-primary btn-block" type="button" onclick="login.check();">登录</button>
+            </form>
+        </div>
+    </div>
 <script src="/Public/js/jquery.js"></script>
 <script src="/Public/js/dialog/layer.js"></script>
 <script src="/Public/js/dialog.js"></script>

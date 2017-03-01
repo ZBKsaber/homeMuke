@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="Public/css/sing/common.css" />
     <link rel="stylesheet" href="Public/css/party/bootstrap-switch.css" />
     <link rel="stylesheet" type="text/css" href="Public/css/party/uploadify.css">
+    <!-- 引入自定义分页样式css -->
+    <link rel="stylesheet" type="text/css" href="Public/css/pageStyle.css">
 
     <!-- jQuery -->
     <script src="/Public/js/jquery.js"></script>
@@ -34,38 +36,6 @@
 
 </head>
 
-<style>
-    .pagination a,.pagination span{
-        display: inline-block;
-        padding:2px 5px;
-        margin:0 1px;
-        border: 1px solid #f0f0f0;
-        -webkit-border-radius:3px;
-        -moz-border-radius:3px;
-        border-radius:3px;
-    }
-    .pagination a,.pagination li{
-        display: inline-block;
-        list-style: none;
-        text-decoration: none;
-        color: #58A0D3;
-    }
-    .pagination a.first,
-    .pagination a.prev,
-    .pagination a.next,
-    .pagination a.end{
-        margin:0;
-    }
-    .pagination a:hover{
-        border-color: #50A8E6;
-    }
-    .pagination span.current{
-        background: #50A8E6;
-        color: #FFF;
-        font-weight: 700;
-        border-color:#50A8E6;
-    }
-</style>
 <body>
 <div id="wrapper">
 
@@ -131,12 +101,14 @@
         </div>
       </div>
       <!-- /.row -->
-      <div >
-        <button  id="button-add" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>添加 </button>
+      <div style="margin-bottom:10px;">
+        <button  id="button-add" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>添加文章
+        </button>
       </div>
       <div class="row">
         <form action="/admin.php" method="get">
-          <div class="col-md-3">
+          <div class="col-md-4">
             <div class="input-group">
               <span class="input-group-addon">栏目</span>
               <select class="form-control" name="catid">
@@ -147,7 +119,7 @@
           </div>
           <input type="hidden" name="c" value="content"/>
           <input type="hidden" name="a" value="index"/>
-          <div class="col-md-3">
+          <div class="col-md-4">
             <div class="input-group">
               <input class="form-control" name="title" type="text" value="<?php echo ($title); ?>" placeholder="文章标题" />
                 <span class="input-group-btn">
@@ -158,7 +130,7 @@
         </form>
       </div>
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-8">
           <h3></h3>
           <div class="table-responsive">
             <form id="singcms-listorder">
@@ -182,11 +154,7 @@
                     <td><input type="checkbox" name="pushcheck" value="<?php echo ($new["news_id"]); ?>"></td>
                     <td><input size=4 type='text' name='listorder[<?php echo ($new["news_id"]); ?>]' value="<?php echo ($new["listorder"]); ?>"/></td>
                     <td><?php echo ($new["news_id"]); ?></td>
-<<<<<<< HEAD
-                    <td><?php echo ($new["title"]); ?></td>
-=======
                     <td><a target="_blank" href="/index.php?c=detail&a=view&id=<?php echo ($new["news_id"]); ?>"><?php echo ($new["title"]); ?></a></td>
->>>>>>> 4e40db4fd28b1fcb6ae4594b3f9fefaf9fe49221
                     <td><?php echo (getCatName($webSiteMenu,$new["catid"])); ?></td>
                     <td><?php echo (getCopyFromById($new["copyfrom"])); ?></td>
                     <td>
@@ -198,22 +166,23 @@
                       <a href="javascript:void(0)" id="singcms-delete"  attr-id="<?php echo ($new["news_id"]); ?>"  attr-message="删除">
                         <span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                       </a>
+                      <a target="_blank" href="/index.php?c=detail&a=view&id=<?php echo ($new["news_id"]); ?>" class="sing_cursor glyphicon glyphicon-eye-open" aria-hidden="true"  ></a>
                     </td>
                   </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                 </tbody>
               </table>
             </form>
-            <div class="input-group">
+            <div class="input-group col-md-4">
                 <select style="width:auto;" class="form-control" name="position_id" id="select_push">
                     <option value="0">请选择推荐位</option>
                     <?php if(is_array($positions)): foreach($positions as $key=>$position): ?><option value="<?php echo ($position["id"]); ?>"><?php echo ($position["name"]); ?></option><?php endforeach; endif; ?>
                 </select>
                 <button type="button" id="singcms_push" class="btn btn-primary">推送</button>
             </div>
-            <div>
+            <div style="margin-top:10px;">
               <button id="button-listorder" type="button" class="btn btn-primary dropdown-toggle"><span class="glyphicon glyphicon glyphicon-resize-vertical" aria-hidden="true"></span>更新排序 </button>
             </div>
-            <nav>
+            <nav class="text-center">
                 <ul class="pagination">
                     <?php echo ($pageres); ?>
                 </ul>

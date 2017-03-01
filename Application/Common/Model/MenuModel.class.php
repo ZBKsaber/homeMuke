@@ -29,7 +29,7 @@ class MenuModel extends Model{
         $offset = ($page - 1) * $pageSize;
         // 获取当前页的数据
         $list = $this -> _db ->where($data)
-            -> field('menu_id,name,m,listorder,status')
+            -> field('menu_id,name,m,listorder,status,type')
             -> order('listorder desc,menu_id desc')
             -> limit($offset,$pageSize) -> select();
         return $list;

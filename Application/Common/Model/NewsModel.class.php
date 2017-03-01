@@ -28,7 +28,7 @@ class NewsModel extends Model{
         }
         $offset = ($page - 1)*$pageSize;
         $list = $this -> _db
-            ->field('news_id,catid,title,title_font_color,thumb,create_time,status,listorder')
+            ->field('news_id,catid,title,title_font_color,thumb,create_time,status,listorder,copyfrom')
             ->where($conditions)
             ->order('listorder desc,news_id desc')
             ->limit($offset,$pageSize)->select();

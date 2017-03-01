@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="Public/css/sing/common.css" />
     <link rel="stylesheet" href="Public/css/party/bootstrap-switch.css" />
     <link rel="stylesheet" type="text/css" href="Public/css/party/uploadify.css">
+    <!-- 引入自定义分页样式css -->
+    <link rel="stylesheet" type="text/css" href="Public/css/pageStyle.css">
 
     <!-- jQuery -->
     <script src="/Public/js/jquery.js"></script>
@@ -85,19 +87,19 @@
 	<div class="container-fluid">
 
 		<!-- Page Heading -->
-		<div class="row">
-		<div class="col-lg-12">
-			<a href="/admin.php?c=basic"><button type="button" class="btn <?php if(ACTION_NAME == index): ?>btn-primary<?php endif; ?>"> 基本配置</button></a>
-			<a href="/admin.php?c=basic&a=cache"><button type="button" class="btn <?php if(ACTION_NAME == cache): ?>btn-primary<?php endif; ?>"> 缓存配置</button></a>
-		</div>
+		<div style="margin-bottom:20px;" class="row">
+    		<div class="col-lg-12">
+    			<a href="/admin.php?c=basic"><button type="button" class="btn <?php if(ACTION_NAME == index): ?>btn-primary<?php endif; ?>"> 基本配置</button></a>
+    			<a href="/admin.php?c=basic&a=cache"><button type="button" class="btn <?php if(ACTION_NAME == cache): ?>btn-primary<?php endif; ?>"> 缓存配置</button></a>
+    		</div>
 		</div>
 		<!-- /.row -->
 		<div class="row">
 			<div class="col-lg-6">
 				<div class="form-group">
-					<label for="inputname" class="col-sm-2 control-label">更新首页缓存:</label>
 					<div class="col-sm-5">
-						<button type="button" class="btn" id="cache-index">确定更新</button>
+                        <strong>更新首页缓存:</strong>
+						<button type="button" class="btn btn-success" id="cache-index">确定更新</button>
 					</div>
 				</div>
 
