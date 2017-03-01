@@ -76,7 +76,7 @@ function isThumb($thumb){
 
  // 获取当前登录管理员的函数
  function getLoginUsername(){
-     return $_SESSION['adminUser']['username'] ? $_SESSION['adminUser']['username'] : '';
+     return $_SESSION['admin_user']['username'] ? $_SESSION['admin_user']['username'] : '';
  }
 
  /**

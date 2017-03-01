@@ -182,7 +182,11 @@
                     <td><input type="checkbox" name="pushcheck" value="<?php echo ($new["news_id"]); ?>"></td>
                     <td><input size=4 type='text' name='listorder[<?php echo ($new["news_id"]); ?>]' value="<?php echo ($new["listorder"]); ?>"/></td>
                     <td><?php echo ($new["news_id"]); ?></td>
+<<<<<<< HEAD
                     <td><?php echo ($new["title"]); ?></td>
+=======
+                    <td><a target="_blank" href="/index.php?c=detail&a=view&id=<?php echo ($new["news_id"]); ?>"><?php echo ($new["title"]); ?></a></td>
+>>>>>>> 4e40db4fd28b1fcb6ae4594b3f9fefaf9fe49221
                     <td><?php echo (getCatName($webSiteMenu,$new["catid"])); ?></td>
                     <td><?php echo (getCopyFromById($new["copyfrom"])); ?></td>
                     <td>

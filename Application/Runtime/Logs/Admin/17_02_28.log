@@ -5,9 +5,26 @@ INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
 NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp64\www\muke\Application\Common\Model\BasicModel.class.php 第 8 行.
 NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\BasicModel.class.php 第 8 行.
 
+<<<<<<< HEAD
 [ 2017-02-28T17:25:45+08:00 ] 127.0.0.1 /admin.php?c=admin
 ERR: 无法加载控制器:Admin
 
 [ 2017-02-28T17:25:47+08:00 ] 127.0.0.1 /admin.php?c=admin
+=======
+[ 2017-02-28T19:31:34+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.1174s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-02-28T20:45:39+08:00 ] 127.0.0.1 /admin.php?c=cache
+ERR: 无法加载控制器:Cache
+
+[ 2017-02-28T20:46:13+08:00 ] 127.0.0.1 /admin.php?c=cache
+ERR: 无法加载控制器:Cache
+
+[ 2017-02-28T21:27:49+08:00 ] 127.0.0.1 /admin.php?c=admin
+>>>>>>> 4e40db4fd28b1fcb6ae4594b3f9fefaf9fe49221
 ERR: 无法加载控制器:Admin
 
