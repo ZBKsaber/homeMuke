@@ -109,3 +109,33 @@ ERR: 无法加载控制器:Admin
 [ 2017-03-01T13:30:06+08:00 ] 127.0.0.1 /admin.php?c=admin
 ERR: 无法加载控制器:Admin
 
+[ 2017-03-01T13:51:47+08:00 ] 127.0.0.1 /admin.php?c=admin
+ERR: 无法加载控制器:Admin
+
+[ 2017-03-01T14:00:19+08:00 ] 127.0.0.1 /admin.php?c=content&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) D:\wamp64\www\muke\Application\Admin\Controller\ContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') D:\wamp64\www\muke\Application\Admin\Controller\ContentController.class.php 第 7 行.
+
+[ 2017-03-01T14:17:18+08:00 ] 127.0.0.1 /admin.php?c=admin
+ERR: 无法加载控制器:Admin
+
+[ 2017-03-01T14:18:32+08:00 ] 127.0.0.1 /admin.php?c=admin
+ERR: 无法加载控制器:Admin
+
+[ 2017-03-01T14:28:50+08:00 ] 127.0.0.1 /admin.php?c=position&a=setStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\PositionController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) D:\wamp64\www\muke\Application\Admin\Controller\PositionController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\PositionModel.class.php 第 6 行.
+SQL: UPDATE `cms_position` SET `status`='-1' WHERE ( id=6 ) [ RunTime:0.0000s ]
+
+[ 2017-03-01T14:43:37+08:00 ] 127.0.0.1 /admin.php?c=admin
+ERR: 无法加载控制器:Admin
+
+[ 2017-03-01T15:19:36+08:00 ] 127.0.0.1 /admin.php?c=admin&a=personal
+ERR: 无法加载控制器:Admin
+
