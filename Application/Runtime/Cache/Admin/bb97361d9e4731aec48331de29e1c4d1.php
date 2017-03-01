@@ -109,13 +109,13 @@
 					<div class="form-group">
 						<label for="inputPassword3" class="col-sm-2 control-label">站点关键词:</label>
 						<div class="col-sm-5">
-							<input type="text" class="form-control" value="<?php echo ($vo["title"]); ?>" name="keywords" id="inputPassword3" placeholder="请填写站点关键词">
+							<input type="text" class="form-control" value="<?php echo ($vo["keywords"]); ?>" name="keywords" id="inputPassword3" placeholder="请填写站点关键词">
 						</div>
 					</div>
 					<div class="form-group">
 						<label for="inputPassword3" class="col-sm-2 control-label">站点描述:</label>
 						<div class="col-sm-5">
-							<textarea class="form-control" rows="3" name="description"><?php echo ($vo["title"]); ?></textarea>
+							<textarea class="form-control" rows="3" name="description"><?php echo ($vo["description"]); ?></textarea>
 						</div>
 					</div>
 
