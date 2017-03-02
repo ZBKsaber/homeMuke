@@ -32,6 +32,10 @@
       <div class="col-sm-9 col-md-9">
         <div class="banner">
           <div class="banner-left">
+              <div class="banner-info">
+                  <span>阅读数</span>
+                  <i class="news_conut node-<?php echo ($result['topPicNews'][0]['news_id']); ?>" news-id="<?php echo ($result['topPicNews'][0]['news_id']); ?>"></i>
+              </div>
             <a target="_blank" href="/index.php?c=detail&id=<?php echo ($result['topPicNews'][0]['news_id']); ?>"><img style="width:670px;height:360px;" src="<?php echo ($result['topPicNews'][0]['thumb']); ?>" alt=""></a>
           </div>
           <div class="banner-right">
@@ -54,7 +58,7 @@
                     <?php echo ($vo["description"]); ?>
                   </dd>
                   <dd class="news-info">
-                    <?php echo ($vo["keywords"]); ?> <span><?php echo (date("Y-m-d H:i:s",$vo["create_time"])); ?></span> 阅读(1万)
+                    <?php echo ($vo["keywords"]); ?> <span><?php echo (date("Y-m-d H:i:s",$vo["create_time"])); ?></span> 阅读<i class="news_conut node-<?php echo ($vo["news_id"]); ?>" news-id="<?php echo ($vo["news_id"]); ?>"></i>
                   </dd>
                 </dl><?php endforeach; endif; else: echo "" ;endif; ?>
         </div>
@@ -86,4 +90,6 @@
   </div>
 </section>
 </body>
+<script src="/Public/js/jquery.js"></script>
+<script src="/Public/js/count.js"></script>
 </html>
