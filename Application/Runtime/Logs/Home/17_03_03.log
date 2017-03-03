@@ -1008,3 +1008,167 @@ NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatib
 NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
 SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('508','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0000s ]
 
+[ 2017-03-03T13:36:21+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('508','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','419','420','421','422','423','424','425','426','427','428')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T14:37:27+08:00 ] 127.0.0.1 /index.php?c=index&a=build_html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc LIMIT 10   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\PositionContentModel.class.php 第 99 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\PositionContentModel.class.php 第 99 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 3 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 LIMIT 2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 AND `thumb` <> '' LIMIT 30   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp64\www\muke\Application\Common\Model\BasicModel.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\BasicModel.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\MenuModel.class.php 第 106 行.
+SQL: SELECT `menu_id`,`name` FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-03T14:37:42+08:00 ] 127.0.0.1 /index.php?c=index&a=build_html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc LIMIT 10   [ RunTime:0.0000s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\PositionContentModel.class.php 第 99 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\PositionContentModel.class.php 第 99 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 3 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 5 LIMIT 2   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 AND `thumb` <> '' LIMIT 30   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp64\www\muke\Application\Common\Model\BasicModel.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\BasicModel.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\MenuModel.class.php 第 106 行.
+SQL: SELECT `menu_id`,`name` FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-03T14:37:52+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('508','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','419','420','421','422','423','424','425','426','427','428')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T14:37:57+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('508','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','419','420','421','422','423','424','425','426','427','428')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T14:37:58+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('508','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','419','420','421','422','423','424','425','426','427','428')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T14:38:01+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('508','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','419','420','421','422','423','424','425','426','427','428')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T14:38:03+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('508','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','419','420','421','422','423','424','425','426','427','428')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T14:38:05+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('508','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','419','420','421','422','423','424','425','426','427','428')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T14:38:13+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('508','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','419','420','421','422','423','424','425','426','427','428')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T14:38:52+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('508','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','419','420','421','422','423','424','425','426','427','428')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T14:38:52+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('508','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','419','420','421','422','423','424','425','426','427','428')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T14:45:46+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('508','398','399','400','401','402','403','404','405','406','407')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T14:46:57+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('508','398','399','400','401','402','403','404','405','406','407')  [ RunTime:0.0000s ]
+

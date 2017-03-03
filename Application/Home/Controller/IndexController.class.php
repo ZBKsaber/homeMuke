@@ -13,8 +13,7 @@ class IndexController extends CommonController {
             // 获取广告位
             $advNews = D('PositionContent')->select(array('status'=>1,'position_id'=>5),2);
             // 获取首页列表文章
-            $listNews = D('News')->select(array('status'=>1,'thumb'=>array('neq','')),30);
-
+            $listNews = D('News')->select(array('status'=>1,'thumb'=>array('neq','')),10);
         } catch (Exception $e) {
             return show(0,$e->getMessage());
         }

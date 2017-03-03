@@ -27,4 +27,26 @@ class AdminModel extends Model{
          $field = 'admin_id,username,lastlogintime,status,realname';
          return $this -> _db -> where($where) -> field($field) ->order('admin_id desc') -> select();
      }
+     /**
+      * 更改用户的登陆时间
+      */
+      public function updateLoginTime($id){
+          if (!$id || !is_numeric($id)) {
+              throw_exception('ID不合法');
+          }
+          $data = array();
+          $data['lastlogintime'] = time();
+          $res = $this -> _db -> where('admin_id='.$id) -> field('lastlogintime') -> save($data);
+          return $res;
+      }
+      /**
+       * 获取当日更新的用户数量
+       */
+       public function getLoginNum(){
+           $initTime = mktime(0,0,0,date('m'),date('d'),date('Y'));
+           $where = array();
+           $where['lastlogintime'] = array('gt',$initTime);
+           $res = $this -> _db -> where($where)->field('admin_id')->count('admin_id');
+           return $res;
+       }
 }

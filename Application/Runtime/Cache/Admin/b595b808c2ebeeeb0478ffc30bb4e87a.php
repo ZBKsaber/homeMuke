@@ -93,7 +93,7 @@
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <div class="huge"></div>
-                                    <div>今日登录用户数12</div>
+                                    <div>今日登录用户数 <strong style="font-size:18px;"><?php echo ($num); ?></strong></div>
                                 </div>
                             </div>
                         </div>
@@ -113,7 +113,7 @@
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <div class="huge"></div>
-                                    <div>文章数量12</div>
+                                    <div>文章数量<strong style="font-size:18px;"><?php echo ($newCount); ?></strong></div>
                                 </div>
                             </div>
                         </div>
@@ -135,15 +135,15 @@
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <div class="huge"></div>
-                                    <div>文章最大阅读数12</div>
+                                    <div>文章最大阅读数 <strong style="font-size:18px;"><?php echo ($maxRead["count"]); ?></strong></div>
                                 </div>
                             </div>
                         </div>
-                        <a target="_blank" href="">
+                        <a target="_blank" href="/index.php?c=detail&id=<?php echo ($maxRead["news_id"]); ?>">
                             <div class="panel-footer">
                                 <span class="pull-left"></span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix">ssssssssssssssss</div>
+                                <div class="clearfix">查看</div>
                             </div>
                         </a>
                     </div>
@@ -157,7 +157,7 @@
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <div class="huge"></div>
-                                    <div>推荐位数</div>
+                                    <div>推荐位数 <strong style="font-size:18px;"><?php echo ($positionCount); ?></strong></div>
                                 </div>
                             </div>
                         </div>

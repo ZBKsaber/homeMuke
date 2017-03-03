@@ -407,3 +407,158 @@ NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be
 SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('5','版本帝GitLab连发五版，应对XSS漏洞_IT新闻_博客园','https://images0.cnblogs.com/news_topic/20150705220132279.png\" class=\"topic_img','472','1','1488510807') [ RunTime:0.0010s ]
 SQL: INSERT INTO `cms_position_content` (`position_id`,`title`,`thumb`,`news_id`,`status`,`create_time`) VALUES ('5','特朗普哭晕！苹果回流本土资金先回报股东_IT新闻_博客园','https://images2015.cnblogs.com/news/66372/201702/66372-20170215225529191-35447596.jpg','473','1','1488510808') [ RunTime:0.0000s ]
 
+[ 2017-03-03T13:41:41+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\AdminModel.class.php 第 4 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-03T13:43:25+08:00 ] 127.0.0.1 /admin.php?c=content&a=push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) D:\wamp64\www\muke\Application\Admin\Controller\ContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') D:\wamp64\www\muke\Application\Admin\Controller\ContentController.class.php 第 7 行.
+NOTIC: [8] Undefined index: push D:\wamp64\www\muke\Application\Admin\Controller\ContentController.class.php 第 179 行.
+
+[ 2017-03-03T13:51:08+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\AdminModel.class.php 第 4 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: res D:\wamp64\www\muke\Application\Admin\Controller\LoginController.class.php 第 36 行.
+
+[ 2017-03-03T13:51:12+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\AdminModel.class.php 第 4 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: res D:\wamp64\www\muke\Application\Admin\Controller\LoginController.class.php 第 36 行.
+
+[ 2017-03-03T13:51:30+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\AdminModel.class.php 第 4 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: res D:\wamp64\www\muke\Application\Admin\Controller\LoginController.class.php 第 36 行.
+
+[ 2017-03-03T13:52:05+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\AdminModel.class.php 第 4 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: res D:\wamp64\www\muke\Application\Admin\Controller\LoginController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: res D:\wamp64\www\muke\Application\Admin\Controller\LoginController.class.php 第 37 行.
+
+[ 2017-03-03T13:52:30+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\AdminModel.class.php 第 4 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: res D:\wamp64\www\muke\Application\Admin\Controller\LoginController.class.php 第 36 行.
+
+[ 2017-03-03T13:52:51+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\AdminModel.class.php 第 4 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-03T14:00:20+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Common\Model\AdminModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\AdminModel.class.php 第 4 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cms_admin` SET `lastlogintime`='1488520820' WHERE ( admin_id=1 ) [ RunTime:0.0000s ]
+
+[ 2017-03-03T14:00:45+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\AdminModel.class.php 第 4 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="暗影" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cms_admin` SET `lastlogintime`='1488520845' WHERE ( admin_id=6 ) [ RunTime:0.0010s ]
+
+[ 2017-03-03T14:00:53+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\AdminModel.class.php 第 4 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="天堂" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-03T14:00:58+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\AdminModel.class.php 第 4 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="天堂" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-03T14:01:02+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\AdminModel.class.php 第 4 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="天堂" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-03T14:01:09+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\AdminModel.class.php 第 4 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="天堂" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-03T14:01:14+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\AdminModel.class.php 第 4 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="天堂" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cms_admin` SET `lastlogintime`='1488520874' WHERE ( admin_id=5 ) [ RunTime:0.0000s ]
+
+[ 2017-03-03T14:02:04+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\AdminModel.class.php 第 4 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cms_admin` SET `lastlogintime`='1488520924' WHERE ( admin_id=1 ) [ RunTime:0.0000s ]
+
+[ 2017-03-03T14:17:44+08:00 ] 127.0.0.1 /admin.php?c=admin&a=add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\AdminModel.class.php 第 4 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="啦啦" ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp64\www\muke\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp64\www\muke\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `cms_admin` (`username`,`password`,`realname`) VALUES ('啦啦','3b774df4e728776b3195355531a27996','lala') [ RunTime:0.0010s ]
+
+[ 2017-03-03T14:17:55+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\AdminModel.class.php 第 4 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="拉拉" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-03T14:18:00+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=check
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Common\Model\AdminModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\AdminModel.class.php 第 4 行.
+SQL: SELECT * FROM `cms_admin` WHERE ( username="啦啦" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `cms_admin` SET `lastlogintime`='1488521880' WHERE ( admin_id=7 ) [ RunTime:0.0010s ]
+
+[ 2017-03-03T14:31:57+08:00 ] 127.0.0.1 /admin.php
+ERR: Think\Model:filed方法不存在！
+
+[ 2017-03-03T14:37:12+08:00 ] 127.0.0.1 /admin.php?c=cron&a=dumpmysql
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'mysqldump -uroot muke>E:/sql/cms20170303sql' at line 1
+ [ SQL语句 ] : mysqldump -uroot muke>E:/sql/cms20170303sql
+

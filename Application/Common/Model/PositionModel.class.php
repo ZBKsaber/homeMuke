@@ -52,4 +52,17 @@ class PositionModel extends Model{
            $data['status'] = $status;
            return $this->_db->where('id='.$id)->save($data);
        }
+       /**
+        * 获取推荐位栏目的数量
+        */
+        public function getPositionCount($data=array()){
+            $conditions = $data;
+            // if(isset($data['title']) && $data['title']){
+            //     $conditions['title'] = array('like','%'.$data['title'].'%');
+            // }
+            // if(isset($data['catid']) && $data['catid']){
+            //     $conditions['catid'] = intval($data['catid']);
+            // }
+            return $this -> _db -> where($conditions) -> count('id');
+        }
 }

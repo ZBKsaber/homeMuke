@@ -128,4 +128,11 @@ class NewsModel extends Model{
          $data['count'] = $count;
          return $this -> _db -> where('news_id='.$id)->save($data);
      }
+     /**
+      * 获取阅读数最大的文章
+      */
+      public function getMaxRead(){
+         $res = $this -> _db -> order('count desc') -> field('count,news_id') -> find();
+         return $res;
+      }
 }
