@@ -8,6 +8,8 @@
   <meta name="description" content="<?php echo ($config["description"]); ?>">
   <link rel="stylesheet" href="/Public/css/bootstrap.min.css" type="text/css" />
   <link rel="stylesheet" href="/Public/css/home/main.css" type="text/css" />
+  <!-- 引入自定义分页样式css -->
+  <link rel="stylesheet" type="text/css" href="Public/css/pageStyle.css">
 </head>
 <body>
 <header id="header">

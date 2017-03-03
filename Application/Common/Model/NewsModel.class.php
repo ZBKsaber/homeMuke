@@ -114,7 +114,7 @@ class NewsModel extends Model{
      * @return array
      */
      public function getRank($data = array(),$limit = 100){
-         $list = $this -> _db -> where($data) -> order('count desc,news_id desc') -> select();
+         $list = $this -> _db -> where($data) -> order('count desc,news_id desc')->limit($limit) -> select();
          return $list;
      }
 

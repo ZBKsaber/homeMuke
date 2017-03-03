@@ -53,3 +53,19 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 ERR: 非法操作:save
 
+[ 2017-03-02T16:43:22+08:00 ] 127.0.0.1 /admin.php?c=content&a=push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) D:\wamp64\www\muke\Application\Admin\Controller\ContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') D:\wamp64\www\muke\Application\Admin\Controller\ContentController.class.php 第 7 行.
+NOTIC: [8] Undefined index: push D:\wamp64\www\muke\Application\Admin\Controller\ContentController.class.php 第 179 行.
+
+[ 2017-03-02T16:43:25+08:00 ] 127.0.0.1 /admin.php?c=content&a=push
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) D:\wamp64\www\muke\Application\Admin\Controller\ContentController.class.php 第 7 行.
+NOTIC: [2048] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') D:\wamp64\www\muke\Application\Admin\Controller\ContentController.class.php 第 7 行.
+NOTIC: [8] Undefined index: push D:\wamp64\www\muke\Application\Admin\Controller\ContentController.class.php 第 179 行.
+

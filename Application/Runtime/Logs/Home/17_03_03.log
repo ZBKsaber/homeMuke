@@ -1,0 +1,1010 @@
+[ 2017-03-03T09:31:08+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T09:31:13+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T09:50:53+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T10:01:23+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T10:01:25+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T10:01:39+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T10:01:40+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T10:01:45+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T10:02:53+08:00 ] 127.0.0.1 /home/index/curl
+ERR: 1406:Data too long for column 'small_title' at row 1
+ [ SQL语句 ] : INSERT INTO `cms_news` (`catid`,`keywords`,`description`,`status`,`title_font_color`,`copyfrom`,`username`,`title`,`small_title`,`create_time`) VALUES ('3','暂无','暂无','1','#5674ed','0','','智能手表为啥流行不起来？时尚圈的人是这么回答的_IT新闻_博客园','智能手表为啥流行不起来？时尚圈的人是这么回答的_IT新闻_博客园','1488506573')
+
+[ 2017-03-03T10:04:33+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T10:04:34+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T10:07:28+08:00 ] 127.0.0.1 /home/index/curl
+ERR: 1366:Incorrect string value: '\xF0\x9F\x98\x82)\xE5...' for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `cms_news_content` (`news_id`,`content`,`create_time`) VALUES ('130','
+			&lt;div id=&quot;news_body&quot;&gt;
+				
+				&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184314579-367974552.jpg&quot; alt=&quot;百度高管官网团队调整的背后：一场 10 亿美元的幻梦，及得而复失的大神们&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;　　继昨日百度内部邮件宣布成立智能驾驶事业群组后，今日，百度高级副总裁、前自动驾驶事业部总经理王劲已被&amp;ldquo;下架&amp;rdquo;。昔日的百度高级副总裁、百度技术战略委员会主席、自动驾驶事业部总经理王劲也消失在了百度高管团队的官方页面中。下面的接力棒，已经交到了陆奇的手中。百度无人车业务调整的背后，是一场 10 亿美元的幻梦，及得而复失的大神们。&lt;/p&gt;
+&lt;p&gt;　　文章转自微信公众号：量子位。&lt;/p&gt;
+&lt;p&gt;　　百度无人车业务调整的背后，是一场 10 亿美元的幻梦，及得而复失的大神们&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184314501-1526690867.jpg&quot; alt=&quot;1&quot; width=&quot;640&quot; height=&quot;417&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;△ 调整前的百度官网高管团队页面&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;　　量子位(QbitAI) 舒石、李林、跑爷，发自凹非寺&lt;/p&gt;
+&lt;p&gt;　　百度极有效率，邮件发出的当天，&amp;ldquo;五号人物&amp;rdquo;的头像，就从官网消失了。&lt;/p&gt;
+&lt;p&gt;　　一切早有准备。&lt;/p&gt;
+&lt;p&gt;　　昨天上午十点半，那封邮件按原计划发送出来。邮件中宣布，把自动驾驶事业部等三合一，成立智能驾驶事业群组(IDG)，交由到任不久的&amp;ldquo;二号人物&amp;rdquo;陆奇负责。&lt;/p&gt;
+&lt;p&gt;　　同时百度高级副总裁、原自动驾驶事业部总经理王劲，&amp;ldquo;内部休息调整&amp;rdquo;。&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184314610-417770662.jpg&quot; alt=&quot;2&quot; width=&quot;640&quot; height=&quot;397&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;△&amp;nbsp;3 月 1 日调整后的页面（为效率点赞）&lt;/p&gt;
+&lt;p&gt;　　百度无人车的工程师们，直到看见邮件，才知道自己所在的部门换了大领导。而在百度内部，只有为数不多的人能够提前 12 个小时得知不确切的消息。&lt;/p&gt;
+&lt;p&gt;　　一切也并非毫无预兆。&lt;/p&gt;
+&lt;p&gt;　　&lt;strong&gt;10 亿美元之梦&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;　　王劲治下，百度曾把车子开上五环。&lt;/p&gt;
+&lt;p&gt;　　那是 2015 年 12 月 10 日，一辆无人驾驶汽车，从中关村软件园出发，驶入北京的五环路。整个往返全程均实现自动驾驶，包括多次跟车减速、变道、超车、上下匝道、调头等复杂驾驶动作。最高时速达到 100 公里/小时。&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184314673-1691921338.jpg&quot; alt=&quot;3&quot; width=&quot;550&quot; height=&quot;366&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;　　也正是那个时候，百度顺势成立自动驾驶事业部，王劲担任事业部总经理。王劲当时喊出的口号是&amp;ldquo;三年模拟，五年高考&amp;rdquo;&amp;hellip;&amp;hellip;啊不对&amp;hellip;&amp;hellip;是：&amp;ldquo;三年商用，五年量产&amp;rdquo;。&lt;/p&gt;
+&lt;p&gt;　　此后几年中，百度和多家车企合作，与宝马牵手又分手。&lt;/p&gt;
+&lt;p&gt;　　按照西方那一套标准，无人驾驶汽车分为五个等级(Level 0-4)。其中 L3 等级对应高度自动驾驶；L4 等级对应无人驾驶。&lt;/p&gt;
+&lt;p&gt;　　王劲和百度自动驾驶事业部，走的是 L4 路线。去年底，王劲在一次大会上透露，在百度无人车上，仅仅激光雷达(LiDAR)的成本就有 80 万元：包括一个价值 50 万元的 64 线激光雷达和 3 个单价为 10 万元的 16 线激光雷达。&lt;/p&gt;
+&lt;p&gt;　　这还是近年来降价后的成本。&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184314657-533341096.jpg&quot; alt=&quot;4&quot; width=&quot;640&quot; height=&quot;360&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;　　那个号称硅谷钢铁侠、天天放火箭玩的伊隆-马斯克，因为嫌贵，至今都没在 Tesla 电动汽车上配备激光雷达，只是在路测时曾被美国的朝阳群众撞见过。&lt;/p&gt;
+&lt;p&gt;　　继续说百度。奔着 L4 的方向努力，一是成本很高，二是技术很高。比方说用摄像头来判断物体，百度无人车 2015 年的准确率达到 89%，经过一年努力，去年达到了 90%。判断红绿灯的准确率去年达到 99.9%，但是王劲认为必须达到 100% 才行。&lt;/p&gt;
+&lt;p&gt;　　还有一个问题是，到底 L4 这条路的商用和量产怎么解决？从目前的情况看，传统车企并不愿意坐等被革命，也不愿意把车辆的控制权拱手让给互联网企业。&lt;/p&gt;
+&lt;p&gt;　　无论是大众、丰田，还是福特、宝马，都在用自己的方式切入无人车领域。&lt;/p&gt;
+&lt;p&gt;　　所以百度迈出了另一条腿。去年 9 月，百度架构调整、王劲被变相&amp;ldquo;削权&amp;rdquo;的时候。百度 L3 事业部正式亮相。两个部门各自为战，百度 L3 事业部向张亚勤汇报。&lt;/p&gt;
+&lt;p&gt;　　据说，L3 的成立时奉了圣谕：&amp;ldquo;Robin 清晰地指出百度实现自动驾驶的两条路径&amp;rdquo;。&lt;/p&gt;
+&lt;p&gt;　　如今，无论是王劲的 L4 还是张亚勤的 L3，都整合进 IDG 由陆奇统领了。&lt;/p&gt;
+&lt;p&gt;　　曾经有一位熟悉百度的大神，私下对量子位批评百度无人车(L4) 业务进展缓慢。然而也有另外一位大神，也是私下(😂)对量子位表示王劲并非毫无成绩。&lt;/p&gt;
+&lt;p&gt;　　比方说并不为外界关注的人员引进。王劲此前负责构建的百度美国研发中心，招募到的第一个大神级人物是 James Peng，那是在 2012 年。1996 年，James Peng 毕业于清华，2002 年在斯坦福获得博士学位，2005-2012 年供职于 Google。&lt;/p&gt;
+&lt;p&gt;　　从 2015 年开始，James Peng 开始专注研发无人车项目，并担任自动驾驶业务的首席架构师。去年 9 月，James Peng 还曾在百度世界大会上介绍百度无人车。&lt;/p&gt;
+&lt;p&gt;　　另外一个大神，是楼天城。2012 年博士毕业于清华之后，楼天城远赴美国加盟 Google。在 Google 工作的最后一年多时间里，楼天城就在无人车团队之中。2016 年 1 月，楼天城从 Google 离职，借道 Quora 工作三个月。2016 年 4 月，楼天城加盟百度。&lt;/p&gt;
+&lt;p&gt;　　楼天城的加盟，显然能把 Google 在无人车方面的相关技术和经验，加持给百度。当时的百度无人车被外界赞誉拥有一支&amp;ldquo;豪华团队&amp;rdquo;。&lt;/p&gt;
+&lt;p&gt;　　重点来了。气势正盛的王劲，去年曾试图把百度无人车业务拆分出来独立运营，并且在一定范围内开始与投资人展开接洽。&lt;/p&gt;
+&lt;p&gt;　　据一位业内资深人士对量子位透露，当时王劲给这个业务的估值为 10 亿美元。不过最终因为种种原因未有结果。&lt;/p&gt;
+&lt;p&gt;　　10 亿美元，终成幻梦一场。&lt;/p&gt;
+&lt;p&gt;　　倒是去年 12 月中旬，Google 把旗下无人车业务拆分出来，成为一个独立运作的公司 Waymo。上个月，Waymo 抛出一记重磅消息：他们把激光雷达的成本降低了 90%。&lt;/p&gt;
+&lt;p&gt;　　王劲为什么离开百度？原因可能是多种多样的，也许是一个复杂的原因，导致了今天的局面。也许只是一个简单的不能再简单的原因。无论如何，三年未到，人去楼空。&lt;/p&gt;
+&lt;p&gt;　　下面的接力棒，已经交到了陆奇的手中。&lt;/p&gt;
+&lt;p&gt;　　&lt;strong&gt;出走的大神(们)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;　　不怎么为外界关注的是，大神们早已出走。&lt;/p&gt;
+&lt;p&gt;　　去年 4 月，楼天城加盟百度的时候，Face++创始人唐文斌曾在知乎上这样评论：&lt;/p&gt;
+&lt;p&gt;　　祝贺百度！不过想起伟大的康神当年的从业经历，Baidu 感觉不一定呆的久啊。说起来应该抓紧去邀请一下楼爷加入敝司&amp;hellip;&amp;hellip;万一他就答应了呢&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;　　好吧，确切的消息是，楼天城已经从百度离职了。楼天城和 James Peng 都离职了。楼天城跟着 James Peng 一起去创业了。还带着几个百度的小伙伴。&lt;/p&gt;
+&lt;p&gt;　　1986 年出生的楼天城，2004 年保送进清华大学计算机系，2008 年成为清华&amp;ldquo;姚班&amp;rdquo;首届学生。对于 ID 为 ACRush 的楼天城，往往伴随这样的介绍：在编程界，他是一个传奇，被业内奉为&amp;ldquo;楼教主&amp;rdquo;。能够&amp;ldquo;以一己之力挑战对手一个队，然后把对手打得抬不起头来&amp;rdquo;的人。&lt;/p&gt;
+&lt;p&gt;　　王劲曾经夸楼天城是一名难得的全栈工程师，&amp;ldquo;他是一个人能写出一个 OS 这样的人才，并且每一部分都会&amp;rdquo;。&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184314532-2021402948.jpg&quot; alt=&quot;6&quot; width=&quot;349&quot; height=&quot;289&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;△&amp;nbsp;图为：王劲、楼天城、陈世熹（从左至右）&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;　　如今百度最年轻的 T10 工程师楼天城，和 T11 的 James Peng，还有王劲，已经全都离开百度了。好在当年王劲写邮件欢迎的吴恩达，仍在百度。&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184315063-1537718029.jpg&quot; alt=&quot;7&quot; width=&quot;576&quot; height=&quot;1024&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;△&amp;nbsp;吴恩达当年在 Facebook 上欢迎楼天城&lt;/p&gt;
+&lt;p&gt;　　有知情人士透露，James Peng 和楼天城，都认为无人车是一项系统工程，这跟王劲谈论的观点接近。不过也有百度高层认为走计算机视觉路线更靠谱。&lt;/p&gt;
+&lt;p&gt;　　工商信息显示，有一家名为&amp;ldquo;小马智行&amp;rdquo;的公司，于去年 12 月 19 日创立。登记的主要成员为李衡宇和楼天城。从这个公司的名字和楼天城的名字，你是不是大概能猜到公司业务方向？另外李衡宇早不更新的新浪微博仍然自称百度&amp;ldquo;标准挨踢民工&amp;rdquo;。&lt;/p&gt;
+&lt;p&gt;　　这家公司注册资本 10 万元，办公地址在北京市海淀区，北清路 68 号院，24 号楼D座 4 层。同一层办公的似乎还有无数家公司&amp;hellip;&amp;hellip;看起来应该是个虚拟的注册地址。&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184315063-1602515917.jpg&quot; alt=&quot;8&quot; width=&quot;640&quot; height=&quot;480&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;　　昨天，量子位也跑去这个地方实际验证了一番：确实什么也没找到。&lt;/p&gt;
+&lt;p&gt;　　更不太为外界关注的是，另外还有五个百度无人车的工程师跑出来融资创业，公司估值 5000 万元。投资人都觉得略贵。目前还没有传出融资完成的消息。&lt;/p&gt;
+&lt;p&gt;　　当然，James 和楼教主不可能融不到资。&lt;/p&gt;
+&lt;p&gt;　　也是五个人左右的初创团队，融资估值已经接近 1 亿美元。如果消息确切，这家公司的融资已经谈妥，投资方包括红杉、IDG 等。&lt;/p&gt;
+&lt;p&gt;　　咦？IDG 又出现了&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;　　（以及，人工智能创业项目真的是不便宜）&lt;/p&gt;
+&lt;p&gt;　　&lt;strong&gt;王劲往事&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;　　2010 年 1 月，发生了两件事。&lt;/p&gt;
+&lt;p&gt;　　Google 调整中国战略，百度 CTO 李一男离职。Google 中国的人才一时被各家&amp;ldquo;哄抢&amp;rdquo;，而彼时百度也迫切的需要一个技术支柱。&lt;/p&gt;
+&lt;p&gt;　　当年 4 月，王劲加入百度，出任技术副总裁。&lt;/p&gt;
+&lt;p&gt;　　此前，王劲的职务是 Google 中国工程院副院长。而他也成为第一位加盟百度的原 Google 中国高管。王劲 2006-2010 年期间供职于 Google，在 LinkedIn 上，王劲对这段经历的描述为：通过改进 Google 的广告系统，将中国区搜索查询的收入增加了四倍。&lt;/p&gt;
+&lt;p&gt;　　而来自百度百科的信息显示，2010-2015 年间，王劲通过对百度商业变现产品凤巢的技术提升，让百度的收入再五年内提升了十倍。&lt;/p&gt;
+&lt;p&gt;　　除了凤巢之外，王劲在百度负责过诸多的技术业务。还是援引百度百科：&lt;/p&gt;
+&lt;p&gt;　　王劲分别创立了百度移动云事业部、百度大数据部、百度基础架构(云计算)部、百度美国研发中心、百度深圳研发中心；并以百度深度学习实验室(IDL)为基础，联合创立了百度研究院，专注人工智能发展&amp;hellip;&amp;hellip;他还创立了百度自动驾驶事业部。&lt;/p&gt;
+&lt;p&gt;　　2010 年，也就是小米刚成立的时候。百度还一度传出在研发手机操作系统，当时在百度的财报电话会议上，有分析师询问此事，李彦宏表示&amp;ldquo;百度内部正在开发一些非常令人振奋的产品&amp;rdquo;。当时据说这一项目也归王劲负责。&lt;/p&gt;
+&lt;p&gt;　　2013 年 12 月，王劲晋升百度高级副总裁。&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184315001-1144385681.jpg&quot; alt=&quot;9&quot; width=&quot;640&quot; height=&quot;426&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;　　三年后，事情开始起变化。去年 9 月，百度再次进行架构调整。王劲所负责的业务，改为&amp;ldquo;专注&amp;rdquo;于无人车一个领域。王劲原来负责的百度大脑等业务，转向张亚勤汇报；而吴恩达带领的人工智能团队，转向李彦宏直接汇报。&lt;/p&gt;
+&lt;p&gt;　　有百度内部人士对量子位表示，无人车是百度的重点领域，这种调整应该被视为王劲在聚焦核心业务，寻求单点突破云云。&lt;/p&gt;
+&lt;p&gt;　　当然，如果简单理解为削权，是不是更奥卡姆剃刀一点？&lt;/p&gt;
+&lt;p&gt;　　无论当时如何解读，今天的结果已经说明了一切。历次在百度架构中被&amp;ldquo;削权&amp;rdquo;的高管，似乎更容易以出局告终。比如之前王劲的下属李明远。在百度的现有高管团队中，近一段时间被&amp;ldquo;削权&amp;rdquo;的好像不止王劲一人。&lt;/p&gt;
+&lt;p&gt;　　李明远走了，王劲也走了。&lt;/p&gt;
+&lt;p&gt;　　那么，距离他走，还远么？（你知道量子位说的是谁吧😏）&lt;/p&gt;
+&lt;p&gt;　　截至 3 月 1 日，有熟悉百度无人车业务的人士对量子位说，除了领导和业务归属有变化，目前普通员工的工作，还没有任何调整。&lt;/p&gt;
+&lt;p&gt;　　工程师们情绪稳定，至少比上一次&amp;ldquo;以身试车&amp;rdquo;时稳定。&lt;/p&gt;
+&lt;p&gt;　　- &amp;ldquo;你好，我来自百度 IDG。&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;　　- &amp;ldquo;到底是百度，还是 IDG？&amp;rdquo;&lt;/p&gt;
+			','1488506848')
+
+[ 2017-03-03T10:10:05+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T10:10:06+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T10:14:17+08:00 ] 127.0.0.1 /home/index/curl
+ERR: 1366:Incorrect string value: '\xF0\x9F\x98\x82)\xE5...' for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `cms_news_content` (`news_id`,`content`,`create_time`) VALUES ('131','
+			&lt;div id=&quot;news_body&quot;&gt;
+				
+				&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184314579-367974552.jpg&quot; alt=&quot;百度高管官网团队调整的背后：一场 10 亿美元的幻梦，及得而复失的大神们&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;　　继昨日百度内部邮件宣布成立智能驾驶事业群组后，今日，百度高级副总裁、前自动驾驶事业部总经理王劲已被&amp;ldquo;下架&amp;rdquo;。昔日的百度高级副总裁、百度技术战略委员会主席、自动驾驶事业部总经理王劲也消失在了百度高管团队的官方页面中。下面的接力棒，已经交到了陆奇的手中。百度无人车业务调整的背后，是一场 10 亿美元的幻梦，及得而复失的大神们。&lt;/p&gt;
+&lt;p&gt;　　文章转自微信公众号：量子位。&lt;/p&gt;
+&lt;p&gt;　　百度无人车业务调整的背后，是一场 10 亿美元的幻梦，及得而复失的大神们&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184314501-1526690867.jpg&quot; alt=&quot;1&quot; width=&quot;640&quot; height=&quot;417&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;△ 调整前的百度官网高管团队页面&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;　　量子位(QbitAI) 舒石、李林、跑爷，发自凹非寺&lt;/p&gt;
+&lt;p&gt;　　百度极有效率，邮件发出的当天，&amp;ldquo;五号人物&amp;rdquo;的头像，就从官网消失了。&lt;/p&gt;
+&lt;p&gt;　　一切早有准备。&lt;/p&gt;
+&lt;p&gt;　　昨天上午十点半，那封邮件按原计划发送出来。邮件中宣布，把自动驾驶事业部等三合一，成立智能驾驶事业群组(IDG)，交由到任不久的&amp;ldquo;二号人物&amp;rdquo;陆奇负责。&lt;/p&gt;
+&lt;p&gt;　　同时百度高级副总裁、原自动驾驶事业部总经理王劲，&amp;ldquo;内部休息调整&amp;rdquo;。&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184314610-417770662.jpg&quot; alt=&quot;2&quot; width=&quot;640&quot; height=&quot;397&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;△&amp;nbsp;3 月 1 日调整后的页面（为效率点赞）&lt;/p&gt;
+&lt;p&gt;　　百度无人车的工程师们，直到看见邮件，才知道自己所在的部门换了大领导。而在百度内部，只有为数不多的人能够提前 12 个小时得知不确切的消息。&lt;/p&gt;
+&lt;p&gt;　　一切也并非毫无预兆。&lt;/p&gt;
+&lt;p&gt;　　&lt;strong&gt;10 亿美元之梦&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;　　王劲治下，百度曾把车子开上五环。&lt;/p&gt;
+&lt;p&gt;　　那是 2015 年 12 月 10 日，一辆无人驾驶汽车，从中关村软件园出发，驶入北京的五环路。整个往返全程均实现自动驾驶，包括多次跟车减速、变道、超车、上下匝道、调头等复杂驾驶动作。最高时速达到 100 公里/小时。&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184314673-1691921338.jpg&quot; alt=&quot;3&quot; width=&quot;550&quot; height=&quot;366&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;　　也正是那个时候，百度顺势成立自动驾驶事业部，王劲担任事业部总经理。王劲当时喊出的口号是&amp;ldquo;三年模拟，五年高考&amp;rdquo;&amp;hellip;&amp;hellip;啊不对&amp;hellip;&amp;hellip;是：&amp;ldquo;三年商用，五年量产&amp;rdquo;。&lt;/p&gt;
+&lt;p&gt;　　此后几年中，百度和多家车企合作，与宝马牵手又分手。&lt;/p&gt;
+&lt;p&gt;　　按照西方那一套标准，无人驾驶汽车分为五个等级(Level 0-4)。其中 L3 等级对应高度自动驾驶；L4 等级对应无人驾驶。&lt;/p&gt;
+&lt;p&gt;　　王劲和百度自动驾驶事业部，走的是 L4 路线。去年底，王劲在一次大会上透露，在百度无人车上，仅仅激光雷达(LiDAR)的成本就有 80 万元：包括一个价值 50 万元的 64 线激光雷达和 3 个单价为 10 万元的 16 线激光雷达。&lt;/p&gt;
+&lt;p&gt;　　这还是近年来降价后的成本。&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184314657-533341096.jpg&quot; alt=&quot;4&quot; width=&quot;640&quot; height=&quot;360&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;　　那个号称硅谷钢铁侠、天天放火箭玩的伊隆-马斯克，因为嫌贵，至今都没在 Tesla 电动汽车上配备激光雷达，只是在路测时曾被美国的朝阳群众撞见过。&lt;/p&gt;
+&lt;p&gt;　　继续说百度。奔着 L4 的方向努力，一是成本很高，二是技术很高。比方说用摄像头来判断物体，百度无人车 2015 年的准确率达到 89%，经过一年努力，去年达到了 90%。判断红绿灯的准确率去年达到 99.9%，但是王劲认为必须达到 100% 才行。&lt;/p&gt;
+&lt;p&gt;　　还有一个问题是，到底 L4 这条路的商用和量产怎么解决？从目前的情况看，传统车企并不愿意坐等被革命，也不愿意把车辆的控制权拱手让给互联网企业。&lt;/p&gt;
+&lt;p&gt;　　无论是大众、丰田，还是福特、宝马，都在用自己的方式切入无人车领域。&lt;/p&gt;
+&lt;p&gt;　　所以百度迈出了另一条腿。去年 9 月，百度架构调整、王劲被变相&amp;ldquo;削权&amp;rdquo;的时候。百度 L3 事业部正式亮相。两个部门各自为战，百度 L3 事业部向张亚勤汇报。&lt;/p&gt;
+&lt;p&gt;　　据说，L3 的成立时奉了圣谕：&amp;ldquo;Robin 清晰地指出百度实现自动驾驶的两条路径&amp;rdquo;。&lt;/p&gt;
+&lt;p&gt;　　如今，无论是王劲的 L4 还是张亚勤的 L3，都整合进 IDG 由陆奇统领了。&lt;/p&gt;
+&lt;p&gt;　　曾经有一位熟悉百度的大神，私下对量子位批评百度无人车(L4) 业务进展缓慢。然而也有另外一位大神，也是私下(😂)对量子位表示王劲并非毫无成绩。&lt;/p&gt;
+&lt;p&gt;　　比方说并不为外界关注的人员引进。王劲此前负责构建的百度美国研发中心，招募到的第一个大神级人物是 James Peng，那是在 2012 年。1996 年，James Peng 毕业于清华，2002 年在斯坦福获得博士学位，2005-2012 年供职于 Google。&lt;/p&gt;
+&lt;p&gt;　　从 2015 年开始，James Peng 开始专注研发无人车项目，并担任自动驾驶业务的首席架构师。去年 9 月，James Peng 还曾在百度世界大会上介绍百度无人车。&lt;/p&gt;
+&lt;p&gt;　　另外一个大神，是楼天城。2012 年博士毕业于清华之后，楼天城远赴美国加盟 Google。在 Google 工作的最后一年多时间里，楼天城就在无人车团队之中。2016 年 1 月，楼天城从 Google 离职，借道 Quora 工作三个月。2016 年 4 月，楼天城加盟百度。&lt;/p&gt;
+&lt;p&gt;　　楼天城的加盟，显然能把 Google 在无人车方面的相关技术和经验，加持给百度。当时的百度无人车被外界赞誉拥有一支&amp;ldquo;豪华团队&amp;rdquo;。&lt;/p&gt;
+&lt;p&gt;　　重点来了。气势正盛的王劲，去年曾试图把百度无人车业务拆分出来独立运营，并且在一定范围内开始与投资人展开接洽。&lt;/p&gt;
+&lt;p&gt;　　据一位业内资深人士对量子位透露，当时王劲给这个业务的估值为 10 亿美元。不过最终因为种种原因未有结果。&lt;/p&gt;
+&lt;p&gt;　　10 亿美元，终成幻梦一场。&lt;/p&gt;
+&lt;p&gt;　　倒是去年 12 月中旬，Google 把旗下无人车业务拆分出来，成为一个独立运作的公司 Waymo。上个月，Waymo 抛出一记重磅消息：他们把激光雷达的成本降低了 90%。&lt;/p&gt;
+&lt;p&gt;　　王劲为什么离开百度？原因可能是多种多样的，也许是一个复杂的原因，导致了今天的局面。也许只是一个简单的不能再简单的原因。无论如何，三年未到，人去楼空。&lt;/p&gt;
+&lt;p&gt;　　下面的接力棒，已经交到了陆奇的手中。&lt;/p&gt;
+&lt;p&gt;　　&lt;strong&gt;出走的大神(们)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;　　不怎么为外界关注的是，大神们早已出走。&lt;/p&gt;
+&lt;p&gt;　　去年 4 月，楼天城加盟百度的时候，Face++创始人唐文斌曾在知乎上这样评论：&lt;/p&gt;
+&lt;p&gt;　　祝贺百度！不过想起伟大的康神当年的从业经历，Baidu 感觉不一定呆的久啊。说起来应该抓紧去邀请一下楼爷加入敝司&amp;hellip;&amp;hellip;万一他就答应了呢&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;　　好吧，确切的消息是，楼天城已经从百度离职了。楼天城和 James Peng 都离职了。楼天城跟着 James Peng 一起去创业了。还带着几个百度的小伙伴。&lt;/p&gt;
+&lt;p&gt;　　1986 年出生的楼天城，2004 年保送进清华大学计算机系，2008 年成为清华&amp;ldquo;姚班&amp;rdquo;首届学生。对于 ID 为 ACRush 的楼天城，往往伴随这样的介绍：在编程界，他是一个传奇，被业内奉为&amp;ldquo;楼教主&amp;rdquo;。能够&amp;ldquo;以一己之力挑战对手一个队，然后把对手打得抬不起头来&amp;rdquo;的人。&lt;/p&gt;
+&lt;p&gt;　　王劲曾经夸楼天城是一名难得的全栈工程师，&amp;ldquo;他是一个人能写出一个 OS 这样的人才，并且每一部分都会&amp;rdquo;。&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184314532-2021402948.jpg&quot; alt=&quot;6&quot; width=&quot;349&quot; height=&quot;289&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;△&amp;nbsp;图为：王劲、楼天城、陈世熹（从左至右）&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;　　如今百度最年轻的 T10 工程师楼天城，和 T11 的 James Peng，还有王劲，已经全都离开百度了。好在当年王劲写邮件欢迎的吴恩达，仍在百度。&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184315063-1537718029.jpg&quot; alt=&quot;7&quot; width=&quot;576&quot; height=&quot;1024&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;△&amp;nbsp;吴恩达当年在 Facebook 上欢迎楼天城&lt;/p&gt;
+&lt;p&gt;　　有知情人士透露，James Peng 和楼天城，都认为无人车是一项系统工程，这跟王劲谈论的观点接近。不过也有百度高层认为走计算机视觉路线更靠谱。&lt;/p&gt;
+&lt;p&gt;　　工商信息显示，有一家名为&amp;ldquo;小马智行&amp;rdquo;的公司，于去年 12 月 19 日创立。登记的主要成员为李衡宇和楼天城。从这个公司的名字和楼天城的名字，你是不是大概能猜到公司业务方向？另外李衡宇早不更新的新浪微博仍然自称百度&amp;ldquo;标准挨踢民工&amp;rdquo;。&lt;/p&gt;
+&lt;p&gt;　　这家公司注册资本 10 万元，办公地址在北京市海淀区，北清路 68 号院，24 号楼D座 4 层。同一层办公的似乎还有无数家公司&amp;hellip;&amp;hellip;看起来应该是个虚拟的注册地址。&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184315063-1602515917.jpg&quot; alt=&quot;8&quot; width=&quot;640&quot; height=&quot;480&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;　　昨天，量子位也跑去这个地方实际验证了一番：确实什么也没找到。&lt;/p&gt;
+&lt;p&gt;　　更不太为外界关注的是，另外还有五个百度无人车的工程师跑出来融资创业，公司估值 5000 万元。投资人都觉得略贵。目前还没有传出融资完成的消息。&lt;/p&gt;
+&lt;p&gt;　　当然，James 和楼教主不可能融不到资。&lt;/p&gt;
+&lt;p&gt;　　也是五个人左右的初创团队，融资估值已经接近 1 亿美元。如果消息确切，这家公司的融资已经谈妥，投资方包括红杉、IDG 等。&lt;/p&gt;
+&lt;p&gt;　　咦？IDG 又出现了&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;　　（以及，人工智能创业项目真的是不便宜）&lt;/p&gt;
+&lt;p&gt;　　&lt;strong&gt;王劲往事&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;　　2010 年 1 月，发生了两件事。&lt;/p&gt;
+&lt;p&gt;　　Google 调整中国战略，百度 CTO 李一男离职。Google 中国的人才一时被各家&amp;ldquo;哄抢&amp;rdquo;，而彼时百度也迫切的需要一个技术支柱。&lt;/p&gt;
+&lt;p&gt;　　当年 4 月，王劲加入百度，出任技术副总裁。&lt;/p&gt;
+&lt;p&gt;　　此前，王劲的职务是 Google 中国工程院副院长。而他也成为第一位加盟百度的原 Google 中国高管。王劲 2006-2010 年期间供职于 Google，在 LinkedIn 上，王劲对这段经历的描述为：通过改进 Google 的广告系统，将中国区搜索查询的收入增加了四倍。&lt;/p&gt;
+&lt;p&gt;　　而来自百度百科的信息显示，2010-2015 年间，王劲通过对百度商业变现产品凤巢的技术提升，让百度的收入再五年内提升了十倍。&lt;/p&gt;
+&lt;p&gt;　　除了凤巢之外，王劲在百度负责过诸多的技术业务。还是援引百度百科：&lt;/p&gt;
+&lt;p&gt;　　王劲分别创立了百度移动云事业部、百度大数据部、百度基础架构(云计算)部、百度美国研发中心、百度深圳研发中心；并以百度深度学习实验室(IDL)为基础，联合创立了百度研究院，专注人工智能发展&amp;hellip;&amp;hellip;他还创立了百度自动驾驶事业部。&lt;/p&gt;
+&lt;p&gt;　　2010 年，也就是小米刚成立的时候。百度还一度传出在研发手机操作系统，当时在百度的财报电话会议上，有分析师询问此事，李彦宏表示&amp;ldquo;百度内部正在开发一些非常令人振奋的产品&amp;rdquo;。当时据说这一项目也归王劲负责。&lt;/p&gt;
+&lt;p&gt;　　2013 年 12 月，王劲晋升百度高级副总裁。&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184315001-1144385681.jpg&quot; alt=&quot;9&quot; width=&quot;640&quot; height=&quot;426&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;　　三年后，事情开始起变化。去年 9 月，百度再次进行架构调整。王劲所负责的业务，改为&amp;ldquo;专注&amp;rdquo;于无人车一个领域。王劲原来负责的百度大脑等业务，转向张亚勤汇报；而吴恩达带领的人工智能团队，转向李彦宏直接汇报。&lt;/p&gt;
+&lt;p&gt;　　有百度内部人士对量子位表示，无人车是百度的重点领域，这种调整应该被视为王劲在聚焦核心业务，寻求单点突破云云。&lt;/p&gt;
+&lt;p&gt;　　当然，如果简单理解为削权，是不是更奥卡姆剃刀一点？&lt;/p&gt;
+&lt;p&gt;　　无论当时如何解读，今天的结果已经说明了一切。历次在百度架构中被&amp;ldquo;削权&amp;rdquo;的高管，似乎更容易以出局告终。比如之前王劲的下属李明远。在百度的现有高管团队中，近一段时间被&amp;ldquo;削权&amp;rdquo;的好像不止王劲一人。&lt;/p&gt;
+&lt;p&gt;　　李明远走了，王劲也走了。&lt;/p&gt;
+&lt;p&gt;　　那么，距离他走，还远么？（你知道量子位说的是谁吧😏）&lt;/p&gt;
+&lt;p&gt;　　截至 3 月 1 日，有熟悉百度无人车业务的人士对量子位说，除了领导和业务归属有变化，目前普通员工的工作，还没有任何调整。&lt;/p&gt;
+&lt;p&gt;　　工程师们情绪稳定，至少比上一次&amp;ldquo;以身试车&amp;rdquo;时稳定。&lt;/p&gt;
+&lt;p&gt;　　- &amp;ldquo;你好，我来自百度 IDG。&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;　　- &amp;ldquo;到底是百度，还是 IDG？&amp;rdquo;&lt;/p&gt;
+			','1488507257')
+
+[ 2017-03-03T10:14:18+08:00 ] 127.0.0.1 /home/index/curl
+ERR: 1366:Incorrect string value: '\xF0\x9F\x98\x82)\xE5...' for column 'content' at row 1
+ [ SQL语句 ] : INSERT INTO `cms_news_content` (`news_id`,`content`,`create_time`) VALUES ('132','
+			&lt;div id=&quot;news_body&quot;&gt;
+				
+				&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184314579-367974552.jpg&quot; alt=&quot;百度高管官网团队调整的背后：一场 10 亿美元的幻梦，及得而复失的大神们&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;　　继昨日百度内部邮件宣布成立智能驾驶事业群组后，今日，百度高级副总裁、前自动驾驶事业部总经理王劲已被&amp;ldquo;下架&amp;rdquo;。昔日的百度高级副总裁、百度技术战略委员会主席、自动驾驶事业部总经理王劲也消失在了百度高管团队的官方页面中。下面的接力棒，已经交到了陆奇的手中。百度无人车业务调整的背后，是一场 10 亿美元的幻梦，及得而复失的大神们。&lt;/p&gt;
+&lt;p&gt;　　文章转自微信公众号：量子位。&lt;/p&gt;
+&lt;p&gt;　　百度无人车业务调整的背后，是一场 10 亿美元的幻梦，及得而复失的大神们&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184314501-1526690867.jpg&quot; alt=&quot;1&quot; width=&quot;640&quot; height=&quot;417&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;△ 调整前的百度官网高管团队页面&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;　　量子位(QbitAI) 舒石、李林、跑爷，发自凹非寺&lt;/p&gt;
+&lt;p&gt;　　百度极有效率，邮件发出的当天，&amp;ldquo;五号人物&amp;rdquo;的头像，就从官网消失了。&lt;/p&gt;
+&lt;p&gt;　　一切早有准备。&lt;/p&gt;
+&lt;p&gt;　　昨天上午十点半，那封邮件按原计划发送出来。邮件中宣布，把自动驾驶事业部等三合一，成立智能驾驶事业群组(IDG)，交由到任不久的&amp;ldquo;二号人物&amp;rdquo;陆奇负责。&lt;/p&gt;
+&lt;p&gt;　　同时百度高级副总裁、原自动驾驶事业部总经理王劲，&amp;ldquo;内部休息调整&amp;rdquo;。&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184314610-417770662.jpg&quot; alt=&quot;2&quot; width=&quot;640&quot; height=&quot;397&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;△&amp;nbsp;3 月 1 日调整后的页面（为效率点赞）&lt;/p&gt;
+&lt;p&gt;　　百度无人车的工程师们，直到看见邮件，才知道自己所在的部门换了大领导。而在百度内部，只有为数不多的人能够提前 12 个小时得知不确切的消息。&lt;/p&gt;
+&lt;p&gt;　　一切也并非毫无预兆。&lt;/p&gt;
+&lt;p&gt;　　&lt;strong&gt;10 亿美元之梦&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;　　王劲治下，百度曾把车子开上五环。&lt;/p&gt;
+&lt;p&gt;　　那是 2015 年 12 月 10 日，一辆无人驾驶汽车，从中关村软件园出发，驶入北京的五环路。整个往返全程均实现自动驾驶，包括多次跟车减速、变道、超车、上下匝道、调头等复杂驾驶动作。最高时速达到 100 公里/小时。&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184314673-1691921338.jpg&quot; alt=&quot;3&quot; width=&quot;550&quot; height=&quot;366&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;　　也正是那个时候，百度顺势成立自动驾驶事业部，王劲担任事业部总经理。王劲当时喊出的口号是&amp;ldquo;三年模拟，五年高考&amp;rdquo;&amp;hellip;&amp;hellip;啊不对&amp;hellip;&amp;hellip;是：&amp;ldquo;三年商用，五年量产&amp;rdquo;。&lt;/p&gt;
+&lt;p&gt;　　此后几年中，百度和多家车企合作，与宝马牵手又分手。&lt;/p&gt;
+&lt;p&gt;　　按照西方那一套标准，无人驾驶汽车分为五个等级(Level 0-4)。其中 L3 等级对应高度自动驾驶；L4 等级对应无人驾驶。&lt;/p&gt;
+&lt;p&gt;　　王劲和百度自动驾驶事业部，走的是 L4 路线。去年底，王劲在一次大会上透露，在百度无人车上，仅仅激光雷达(LiDAR)的成本就有 80 万元：包括一个价值 50 万元的 64 线激光雷达和 3 个单价为 10 万元的 16 线激光雷达。&lt;/p&gt;
+&lt;p&gt;　　这还是近年来降价后的成本。&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184314657-533341096.jpg&quot; alt=&quot;4&quot; width=&quot;640&quot; height=&quot;360&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;　　那个号称硅谷钢铁侠、天天放火箭玩的伊隆-马斯克，因为嫌贵，至今都没在 Tesla 电动汽车上配备激光雷达，只是在路测时曾被美国的朝阳群众撞见过。&lt;/p&gt;
+&lt;p&gt;　　继续说百度。奔着 L4 的方向努力，一是成本很高，二是技术很高。比方说用摄像头来判断物体，百度无人车 2015 年的准确率达到 89%，经过一年努力，去年达到了 90%。判断红绿灯的准确率去年达到 99.9%，但是王劲认为必须达到 100% 才行。&lt;/p&gt;
+&lt;p&gt;　　还有一个问题是，到底 L4 这条路的商用和量产怎么解决？从目前的情况看，传统车企并不愿意坐等被革命，也不愿意把车辆的控制权拱手让给互联网企业。&lt;/p&gt;
+&lt;p&gt;　　无论是大众、丰田，还是福特、宝马，都在用自己的方式切入无人车领域。&lt;/p&gt;
+&lt;p&gt;　　所以百度迈出了另一条腿。去年 9 月，百度架构调整、王劲被变相&amp;ldquo;削权&amp;rdquo;的时候。百度 L3 事业部正式亮相。两个部门各自为战，百度 L3 事业部向张亚勤汇报。&lt;/p&gt;
+&lt;p&gt;　　据说，L3 的成立时奉了圣谕：&amp;ldquo;Robin 清晰地指出百度实现自动驾驶的两条路径&amp;rdquo;。&lt;/p&gt;
+&lt;p&gt;　　如今，无论是王劲的 L4 还是张亚勤的 L3，都整合进 IDG 由陆奇统领了。&lt;/p&gt;
+&lt;p&gt;　　曾经有一位熟悉百度的大神，私下对量子位批评百度无人车(L4) 业务进展缓慢。然而也有另外一位大神，也是私下(😂)对量子位表示王劲并非毫无成绩。&lt;/p&gt;
+&lt;p&gt;　　比方说并不为外界关注的人员引进。王劲此前负责构建的百度美国研发中心，招募到的第一个大神级人物是 James Peng，那是在 2012 年。1996 年，James Peng 毕业于清华，2002 年在斯坦福获得博士学位，2005-2012 年供职于 Google。&lt;/p&gt;
+&lt;p&gt;　　从 2015 年开始，James Peng 开始专注研发无人车项目，并担任自动驾驶业务的首席架构师。去年 9 月，James Peng 还曾在百度世界大会上介绍百度无人车。&lt;/p&gt;
+&lt;p&gt;　　另外一个大神，是楼天城。2012 年博士毕业于清华之后，楼天城远赴美国加盟 Google。在 Google 工作的最后一年多时间里，楼天城就在无人车团队之中。2016 年 1 月，楼天城从 Google 离职，借道 Quora 工作三个月。2016 年 4 月，楼天城加盟百度。&lt;/p&gt;
+&lt;p&gt;　　楼天城的加盟，显然能把 Google 在无人车方面的相关技术和经验，加持给百度。当时的百度无人车被外界赞誉拥有一支&amp;ldquo;豪华团队&amp;rdquo;。&lt;/p&gt;
+&lt;p&gt;　　重点来了。气势正盛的王劲，去年曾试图把百度无人车业务拆分出来独立运营，并且在一定范围内开始与投资人展开接洽。&lt;/p&gt;
+&lt;p&gt;　　据一位业内资深人士对量子位透露，当时王劲给这个业务的估值为 10 亿美元。不过最终因为种种原因未有结果。&lt;/p&gt;
+&lt;p&gt;　　10 亿美元，终成幻梦一场。&lt;/p&gt;
+&lt;p&gt;　　倒是去年 12 月中旬，Google 把旗下无人车业务拆分出来，成为一个独立运作的公司 Waymo。上个月，Waymo 抛出一记重磅消息：他们把激光雷达的成本降低了 90%。&lt;/p&gt;
+&lt;p&gt;　　王劲为什么离开百度？原因可能是多种多样的，也许是一个复杂的原因，导致了今天的局面。也许只是一个简单的不能再简单的原因。无论如何，三年未到，人去楼空。&lt;/p&gt;
+&lt;p&gt;　　下面的接力棒，已经交到了陆奇的手中。&lt;/p&gt;
+&lt;p&gt;　　&lt;strong&gt;出走的大神(们)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;　　不怎么为外界关注的是，大神们早已出走。&lt;/p&gt;
+&lt;p&gt;　　去年 4 月，楼天城加盟百度的时候，Face++创始人唐文斌曾在知乎上这样评论：&lt;/p&gt;
+&lt;p&gt;　　祝贺百度！不过想起伟大的康神当年的从业经历，Baidu 感觉不一定呆的久啊。说起来应该抓紧去邀请一下楼爷加入敝司&amp;hellip;&amp;hellip;万一他就答应了呢&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;　　好吧，确切的消息是，楼天城已经从百度离职了。楼天城和 James Peng 都离职了。楼天城跟着 James Peng 一起去创业了。还带着几个百度的小伙伴。&lt;/p&gt;
+&lt;p&gt;　　1986 年出生的楼天城，2004 年保送进清华大学计算机系，2008 年成为清华&amp;ldquo;姚班&amp;rdquo;首届学生。对于 ID 为 ACRush 的楼天城，往往伴随这样的介绍：在编程界，他是一个传奇，被业内奉为&amp;ldquo;楼教主&amp;rdquo;。能够&amp;ldquo;以一己之力挑战对手一个队，然后把对手打得抬不起头来&amp;rdquo;的人。&lt;/p&gt;
+&lt;p&gt;　　王劲曾经夸楼天城是一名难得的全栈工程师，&amp;ldquo;他是一个人能写出一个 OS 这样的人才，并且每一部分都会&amp;rdquo;。&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184314532-2021402948.jpg&quot; alt=&quot;6&quot; width=&quot;349&quot; height=&quot;289&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;△&amp;nbsp;图为：王劲、楼天城、陈世熹（从左至右）&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;　　如今百度最年轻的 T10 工程师楼天城，和 T11 的 James Peng，还有王劲，已经全都离开百度了。好在当年王劲写邮件欢迎的吴恩达，仍在百度。&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184315063-1537718029.jpg&quot; alt=&quot;7&quot; width=&quot;576&quot; height=&quot;1024&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;△&amp;nbsp;吴恩达当年在 Facebook 上欢迎楼天城&lt;/p&gt;
+&lt;p&gt;　　有知情人士透露，James Peng 和楼天城，都认为无人车是一项系统工程，这跟王劲谈论的观点接近。不过也有百度高层认为走计算机视觉路线更靠谱。&lt;/p&gt;
+&lt;p&gt;　　工商信息显示，有一家名为&amp;ldquo;小马智行&amp;rdquo;的公司，于去年 12 月 19 日创立。登记的主要成员为李衡宇和楼天城。从这个公司的名字和楼天城的名字，你是不是大概能猜到公司业务方向？另外李衡宇早不更新的新浪微博仍然自称百度&amp;ldquo;标准挨踢民工&amp;rdquo;。&lt;/p&gt;
+&lt;p&gt;　　这家公司注册资本 10 万元，办公地址在北京市海淀区，北清路 68 号院，24 号楼D座 4 层。同一层办公的似乎还有无数家公司&amp;hellip;&amp;hellip;看起来应该是个虚拟的注册地址。&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184315063-1602515917.jpg&quot; alt=&quot;8&quot; width=&quot;640&quot; height=&quot;480&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;　　昨天，量子位也跑去这个地方实际验证了一番：确实什么也没找到。&lt;/p&gt;
+&lt;p&gt;　　更不太为外界关注的是，另外还有五个百度无人车的工程师跑出来融资创业，公司估值 5000 万元。投资人都觉得略贵。目前还没有传出融资完成的消息。&lt;/p&gt;
+&lt;p&gt;　　当然，James 和楼教主不可能融不到资。&lt;/p&gt;
+&lt;p&gt;　　也是五个人左右的初创团队，融资估值已经接近 1 亿美元。如果消息确切，这家公司的融资已经谈妥，投资方包括红杉、IDG 等。&lt;/p&gt;
+&lt;p&gt;　　咦？IDG 又出现了&amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;　　（以及，人工智能创业项目真的是不便宜）&lt;/p&gt;
+&lt;p&gt;　　&lt;strong&gt;王劲往事&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;　　2010 年 1 月，发生了两件事。&lt;/p&gt;
+&lt;p&gt;　　Google 调整中国战略，百度 CTO 李一男离职。Google 中国的人才一时被各家&amp;ldquo;哄抢&amp;rdquo;，而彼时百度也迫切的需要一个技术支柱。&lt;/p&gt;
+&lt;p&gt;　　当年 4 月，王劲加入百度，出任技术副总裁。&lt;/p&gt;
+&lt;p&gt;　　此前，王劲的职务是 Google 中国工程院副院长。而他也成为第一位加盟百度的原 Google 中国高管。王劲 2006-2010 年期间供职于 Google，在 LinkedIn 上，王劲对这段经历的描述为：通过改进 Google 的广告系统，将中国区搜索查询的收入增加了四倍。&lt;/p&gt;
+&lt;p&gt;　　而来自百度百科的信息显示，2010-2015 年间，王劲通过对百度商业变现产品凤巢的技术提升，让百度的收入再五年内提升了十倍。&lt;/p&gt;
+&lt;p&gt;　　除了凤巢之外，王劲在百度负责过诸多的技术业务。还是援引百度百科：&lt;/p&gt;
+&lt;p&gt;　　王劲分别创立了百度移动云事业部、百度大数据部、百度基础架构(云计算)部、百度美国研发中心、百度深圳研发中心；并以百度深度学习实验室(IDL)为基础，联合创立了百度研究院，专注人工智能发展&amp;hellip;&amp;hellip;他还创立了百度自动驾驶事业部。&lt;/p&gt;
+&lt;p&gt;　　2010 年，也就是小米刚成立的时候。百度还一度传出在研发手机操作系统，当时在百度的财报电话会议上，有分析师询问此事，李彦宏表示&amp;ldquo;百度内部正在开发一些非常令人振奋的产品&amp;rdquo;。当时据说这一项目也归王劲负责。&lt;/p&gt;
+&lt;p&gt;　　2013 年 12 月，王劲晋升百度高级副总裁。&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;//images2015.cnblogs.com/news/66372/201703/66372-20170302184315001-1144385681.jpg&quot; alt=&quot;9&quot; width=&quot;640&quot; height=&quot;426&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;　　三年后，事情开始起变化。去年 9 月，百度再次进行架构调整。王劲所负责的业务，改为&amp;ldquo;专注&amp;rdquo;于无人车一个领域。王劲原来负责的百度大脑等业务，转向张亚勤汇报；而吴恩达带领的人工智能团队，转向李彦宏直接汇报。&lt;/p&gt;
+&lt;p&gt;　　有百度内部人士对量子位表示，无人车是百度的重点领域，这种调整应该被视为王劲在聚焦核心业务，寻求单点突破云云。&lt;/p&gt;
+&lt;p&gt;　　当然，如果简单理解为削权，是不是更奥卡姆剃刀一点？&lt;/p&gt;
+&lt;p&gt;　　无论当时如何解读，今天的结果已经说明了一切。历次在百度架构中被&amp;ldquo;削权&amp;rdquo;的高管，似乎更容易以出局告终。比如之前王劲的下属李明远。在百度的现有高管团队中，近一段时间被&amp;ldquo;削权&amp;rdquo;的好像不止王劲一人。&lt;/p&gt;
+&lt;p&gt;　　李明远走了，王劲也走了。&lt;/p&gt;
+&lt;p&gt;　　那么，距离他走，还远么？（你知道量子位说的是谁吧😏）&lt;/p&gt;
+&lt;p&gt;　　截至 3 月 1 日，有熟悉百度无人车业务的人士对量子位说，除了领导和业务归属有变化，目前普通员工的工作，还没有任何调整。&lt;/p&gt;
+&lt;p&gt;　　工程师们情绪稳定，至少比上一次&amp;ldquo;以身试车&amp;rdquo;时稳定。&lt;/p&gt;
+&lt;p&gt;　　- &amp;ldquo;你好，我来自百度 IDG。&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;　　- &amp;ldquo;到底是百度，还是 IDG？&amp;rdquo;&lt;/p&gt;
+			','1488507258')
+
+[ 2017-03-03T10:21:38+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T10:21:40+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T10:21:44+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T10:21:53+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T10:22:46+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T10:34:03+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T10:34:05+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T10:34:06+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T10:34:37+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T10:34:37+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T10:34:47+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T10:35:21+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T10:35:55+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T10:36:49+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T10:39:30+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T10:42:51+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T10:42:54+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:11:22+08:00 ] 127.0.0.1 /home/index/curl
+ERR: 1406:Data too long for column 'thumb' at row 1
+ [ SQL语句 ] : INSERT INTO `cms_news` (`catid`,`keywords`,`description`,`status`,`title_font_color`,`copyfrom`,`username`,`thumb`,`title`,`small_title`,`create_time`) VALUES ('3','暂无','暂无','1','#5674ed','0','admin','https:https://imgs.bipush.com/article/cover/201702/16/075437438940.jpg?imageView2/1/w/1439/h/1079/imageMogr2/strip/interlace/1/quality/85/format/jpg','十九年来，从微软亚洲研究院走出了他们_IT新闻_博客园','563034','1488510682')
+
+[ 2017-03-03T11:14:28+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:15:02+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:15:12+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0020s ]
+
+[ 2017-03-03T11:17:19+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T11:17:21+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:17:28+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T11:17:36+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T11:24:39+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','19')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T11:24:47+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:26:40+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:26:42+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T11:26:45+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:26:48+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T11:26:56+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:27:05+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:29:01+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:29:07+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:30:42+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T11:30:43+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:30:44+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:30:45+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T11:30:46+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:30:48+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T11:30:49+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:31:05+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T11:32:34+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:32:38+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:34:20+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T11:35:36+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('404','398','399','400','401','402','403','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T11:35:47+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('404','398','399','400','401','402','403','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T11:35:54+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('404','398','399','400','401','402','403','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T11:37:45+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('404','398','399','400','401','402','403','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0020s ]
+
+[ 2017-03-03T11:37:47+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('404','398','399','400','401','402','403','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T11:37:48+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('404','398','399','400','401','402','403','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:38:10+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('510','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:38:12+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('510','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:38:30+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('510','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:38:32+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('510','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:38:34+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('510','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T11:38:49+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('452','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T11:38:51+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('452','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:38:58+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('452','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:39:46+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('452','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:39:55+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('508','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:40:33+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('508','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:42:26+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('508','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:42:30+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('508','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:42:36+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('508','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T11:42:40+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('508','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T11:44:05+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('508','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T11:44:11+08:00 ] 127.0.0.1 /index.php?c=index&a=getCount
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp64\www\muke\Application\Home\Controller\CommonController.class.php 第 26 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp64\www\muke\Application\Common\Model\NewsModel.class.php 第 6 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('508','398','399','400','401','402','403','404','405','406','407','408','409','410','411','412','413','414','415','416','417','418','419','420','421','422','423','424','425','426','427')  [ RunTime:0.0000s ]
+

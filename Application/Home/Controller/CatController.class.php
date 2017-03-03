@@ -26,8 +26,11 @@ class CatController extends CommonController {
         $news = D('News') -> getNews($conds,$page,$pageSize);
         $count = D('News') -> getNewsCount($conds);
 
-        $res = new \Think\Page($count,$pageSize);
-        $pageres = $res -> show();
+        // 调用自定义分页函数
+        $pageres = getPageStyle($count,$pageSize);
+
+        // $res = new \Think\Page($count,$pageSize);
+        // $pageres = $res -> show();
 
         $this -> assign('result',array(
             'advNews' => $advNews,
@@ -36,6 +39,7 @@ class CatController extends CommonController {
             'listNews' => $news,
             'pageres' => $pageres,
         ));
+        // var_dump($news);exit;
         $this -> display();
     }
 }

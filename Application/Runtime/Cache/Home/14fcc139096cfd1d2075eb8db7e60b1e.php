@@ -8,6 +8,8 @@
   <meta name="description" content="<?php echo ($config["description"]); ?>">
   <link rel="stylesheet" href="/Public/css/bootstrap.min.css" type="text/css" />
   <link rel="stylesheet" href="/Public/css/home/main.css" type="text/css" />
+  <!-- 引入自定义分页样式css -->
+  <link rel="stylesheet" type="text/css" href="Public/css/pageStyle.css">
 </head>
 <body>
 <header id="header">
@@ -45,7 +47,11 @@
                     <?php echo ($vo["keywords"]); ?> <span><?php echo (date("Y-m-d H:i:s",$vo["create_time"])); ?></span> 阅读(1万)
                   </dd>
                 </dl><?php endforeach; endif; else: echo "" ;endif; ?>
-            <?php echo ($result['pageres']); ?>
+            <nav class="text-center">
+                <ul class="pagination">
+                    <?php echo ($result['pageres']); ?>
+                </ul>
+            </nav>
         </div>
       </div>
       <!-- 网站右侧信息 -->
