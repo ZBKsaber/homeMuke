@@ -8,7 +8,9 @@ class NewsContentModel extends Model{
     public function __construct(){
         $this -> _db = M('news_content');
     }
-
+    /**
+     * 插入数据
+     */
     public function insert($data = array()){
         if(!$data || !is_array($data)){
             return 0;
@@ -19,14 +21,18 @@ class NewsContentModel extends Model{
         }
         return $this -> _db -> add($data);
     }
-
+    /**
+     * 通过id获取单条数据
+     */
     public function find($id){
         if(!$id || !is_numeric($id)){
             return array();
         }
         return $this -> _db -> where('news_id='.$id) -> find();
     }
-
+    /**
+     * 通过id更新内容
+     */
     public function updateNewsById($id,$data){
         if(!$id || !is_numeric($id)){
             throw_exception('ID不合法');

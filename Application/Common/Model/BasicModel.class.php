@@ -18,6 +18,7 @@ class BasicModel extends Model{
          $id = F('basic_web_config',$data);
          return $id;
      }
+     
      public function select(){
          return F('basic_web_config');
      }

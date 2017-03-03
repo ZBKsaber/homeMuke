@@ -27,7 +27,7 @@ class AdminController extends CommonController{
              // 查询用户名是否已经存在
              $res = D('Admin') -> getAdminByUsername($post['username']);
              if ($res) {
-                return show(0,'用户名已经存在');
+                 return show(0,'用户名已经存在');
              }
              if (!$post['password'] || !isset($post['password'])) {
                  return show(0,'密码不能为空');
