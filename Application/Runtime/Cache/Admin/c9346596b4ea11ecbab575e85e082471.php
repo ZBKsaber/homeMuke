@@ -34,9 +34,8 @@
 </head>
 
 <body>
-<div id="wrapper">
-
-  <?php
+    <div id="wrapper">
+        <?php
  $navs = D('Menu')->getAdminMenus(); $index = 'index'; ?>
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="navbar-header">
@@ -70,118 +69,99 @@
     </div>
 </nav>
 
-  <script src="/Public/js/kindeditor/kindeditor-all.js"></script>
-  <div id="page-wrapper">
-
-    <div class="container-fluid">
-
-      <!-- Page Heading -->
-      <div class="row">
-        <div class="col-lg-12">
-
-          <ol class="breadcrumb">
-            <li>
-              <i class="fa fa-dashboard"></i>  <a href="/admin.php?c=content">文章管理</a>
-            </li>
-            <li class="active">
-              <i class="fa fa-edit"></i> 文章修改
-            </li>
-          </ol>
+        <script src="/Public/js/kindeditor/kindeditor-all.js"></script>
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                      <ol class="breadcrumb">
+                        <li>
+                          <i class="fa fa-dashboard"></i>  <a href="/admin.php?c=content">文章管理</a>
+                        </li>
+                        <li class="active">
+                          <i class="fa fa-edit"></i> 文章修改
+                        </li>
+                      </ol>
+                    </div>
+                  </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <form class="form-horizontal" id="singcms-form">
+                            <div class="form-group">
+                              <label for="inputname" class="col-sm-2 control-label">标题:</label>
+                              <div class="col-sm-5">
+                                <input type="text" name="title" value="<?php echo ($news["title"]); ?>" class="form-control" id="inputname" placeholder="请填写标题">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="inputname" class="col-sm-2 control-label">短标题:</label>
+                              <div class="col-sm-5">
+                                <input type="text" name="small_title" value="<?php echo ($news["small_title"]); ?>" class="form-control" id="inputname" placeholder="请填写短标题">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="inputname" class="col-sm-2 control-label">缩图:</label>
+                              <div class="col-sm-5">
+                                <input id="file_upload"  type="file" multiple="true" >
+                                <img style="display: none" id="upload_org_code_img" src="<?php echo ($news["thumb"]); ?>" width="150" height="150">
+                                <input id="file_upload_image" name="thumb" type="hidden" multiple="true" value="<?php echo ($news["thumb"]); ?>">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="inputname" class="col-sm-2 control-label">标题颜色:</label>
+                              <div class="col-sm-5">
+                                <select class="form-control" name="title_font_color">
+                                  <option value="">==请选择颜色==</option>
+                                    <?php if(is_array($titleFontColor)): foreach($titleFontColor as $key=>$color): ?><option value="<?php echo ($key); ?>" <?php if($key == $news['title_font_color']): ?>selected="selected"<?php endif; ?>><?php echo ($color); ?></option><?php endforeach; endif; ?>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="inputname" class="col-sm-2 control-label">所属栏目:</label>
+                              <div class="col-sm-5">
+                                <select class="form-control" name="catid">
+                                    <?php if(is_array($webSiteMenu)): foreach($webSiteMenu as $key=>$siteNav): ?><option value="<?php echo ($siteNav["menu_id"]); ?>" <?php if($siteNav["menu_id"] == $news['catid']): ?>selected="selected"<?php endif; ?>><?php echo ($siteNav["name"]); ?></option><?php endforeach; endif; ?>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="inputname" class="col-sm-2 control-label">来源:</label>
+                              <div class="col-sm-5">
+                                <select class="form-control" name="copyfrom">
+                                    <?php if(is_array($copyFrom)): foreach($copyFrom as $key=>$from): ?><option value="<?php echo ($key); ?>" <?php if($key == $news['copyfrom']): ?>selected="selected"<?php endif; ?>><?php echo ($from); ?></option><?php endforeach; endif; ?>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="inputPassword3" class="col-sm-2 control-label">内容:</label>
+                              <div class="col-sm-5">
+                                <textarea class="input js-editor" id="editor_singcms" name="content" rows="20" ><?php echo ($news["content"]); ?></textarea>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="inputPassword3" class="col-sm-2 control-label">描述:</label>
+                              <div class="col-sm-9">
+                                <input type="text" class="form-control" name="description" value="<?php echo ($news["description"]); ?>" id="inputPassword3" placeholder="描述">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="inputPassword3" class="col-sm-2 control-label">关键字:</label>
+                              <div class="col-sm-5">
+                                <input type="text" class="form-control" name="keywords" value="<?php echo ($news["keywords"]); ?>" id="inputPassword3" placeholder="请填写关键词">
+                              </div>
+                            </div>
+                            <input type="hidden" name="news_id" value="<?php echo ($news["news_id"]); ?>">
+                            <div class="form-group">
+                              <div class="col-sm-offset-2 col-sm-10">
+                                <button type="button" class="btn btn-default" id="singcms-button-submit">提交</button>
+                              </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <!-- /.row -->
-
-      <div class="row">
-        <div class="col-lg-6">
-
-          <form class="form-horizontal" id="singcms-form">
-            <div class="form-group">
-              <label for="inputname" class="col-sm-2 control-label">标题:</label>
-              <div class="col-sm-5">
-                <input type="text" name="title" value="<?php echo ($news["title"]); ?>" class="form-control" id="inputname" placeholder="请填写标题">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="inputname" class="col-sm-2 control-label">短标题:</label>
-              <div class="col-sm-5">
-                <input type="text" name="small_title" value="<?php echo ($news["small_title"]); ?>" class="form-control" id="inputname" placeholder="请填写短标题">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="inputname" class="col-sm-2 control-label">缩图:</label>
-              <div class="col-sm-5">
-                <input id="file_upload"  type="file" multiple="true" >
-                <img style="display: none" id="upload_org_code_img" src="<?php echo ($news["thumb"]); ?>" width="150" height="150">
-                <input id="file_upload_image" name="thumb" type="hidden" multiple="true" value="<?php echo ($news["thumb"]); ?>">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="inputname" class="col-sm-2 control-label">标题颜色:</label>
-              <div class="col-sm-5">
-                <select class="form-control" name="title_font_color">
-                  <option value="">==请选择颜色==</option>
-                    <?php if(is_array($titleFontColor)): foreach($titleFontColor as $key=>$color): ?><option value="<?php echo ($key); ?>" <?php if($key == $news['title_font_color']): ?>selected="selected"<?php endif; ?>><?php echo ($color); ?></option><?php endforeach; endif; ?>
-                </select>
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="inputname" class="col-sm-2 control-label">所属栏目:</label>
-              <div class="col-sm-5">
-                <select class="form-control" name="catid">
-                    <?php if(is_array($webSiteMenu)): foreach($webSiteMenu as $key=>$siteNav): ?><option value="<?php echo ($siteNav["menu_id"]); ?>" <?php if($siteNav["menu_id"] == $news['catid']): ?>selected="selected"<?php endif; ?>><?php echo ($siteNav["name"]); ?></option><?php endforeach; endif; ?>
-                </select>
-              </div>
-            </div>
-
-            <div class="form-group">
-              <label for="inputname" class="col-sm-2 control-label">来源:</label>
-              <div class="col-sm-5">
-                <select class="form-control" name="copyfrom">
-                    <?php if(is_array($copyFrom)): foreach($copyFrom as $key=>$from): ?><option value="<?php echo ($key); ?>" <?php if($key == $news['copyfrom']): ?>selected="selected"<?php endif; ?>><?php echo ($from); ?></option><?php endforeach; endif; ?>
-                </select>
-              </div>
-            </div>
-
-            <div class="form-group">
-              <label for="inputPassword3" class="col-sm-2 control-label">内容:</label>
-              <div class="col-sm-5">
-                <textarea class="input js-editor" id="editor_singcms" name="content" rows="20" ><?php echo ($news["content"]); ?></textarea>
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="inputPassword3" class="col-sm-2 control-label">描述:</label>
-              <div class="col-sm-9">
-                <input type="text" class="form-control" name="description" value="<?php echo ($news["description"]); ?>" id="inputPassword3" placeholder="描述">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="inputPassword3" class="col-sm-2 control-label">关键字:</label>
-              <div class="col-sm-5">
-                <input type="text" class="form-control" name="keywords" value="<?php echo ($news["keywords"]); ?>" id="inputPassword3" placeholder="请填写关键词">
-              </div>
-            </div>
-            <input type="hidden" name="news_id" value="<?php echo ($news["news_id"]); ?>">
-
-            <div class="form-group">
-              <div class="col-sm-offset-2 col-sm-10">
-                <button type="button" class="btn btn-default" id="singcms-button-submit">提交</button>
-              </div>
-            </div>
-          </form>
-
-
-        </div>
-
-      </div>
-      <!-- /.row -->
-
     </div>
-    <!-- /.container-fluid -->
-
-  </div>
-  <!-- /#page-wrapper -->
-
-</div>
 <script>
   var SCOPE = {
     'save_url' : '/admin.php?c=content&a=add',
